@@ -15,7 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from SysMGR import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('index/', views.index),
+    path('welcome/', views.welcome),
+    path('member-list/', views.memberlist),
+    path('member-add/', views.memberadd),
+    path('member-del/', views.memberdel),
+    path('member-edit/', views.memberedit),
+    path('member-pwd/', views.memberpwd),
+    path('orgtree/', views.orgtree),
+
  ]

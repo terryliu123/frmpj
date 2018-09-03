@@ -14,4 +14,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FrmPJ.settings')
 
 application = get_wsgi_application()
-sys.path.append('c:\pythondev/FrmPJ')
+# sys.path.append('c:\pythondev/FrmPJ')
