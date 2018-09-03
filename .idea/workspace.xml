@@ -2,142 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe5074b-0f50-44b3-81a7-c46961c4ef6f" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/xadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/aiwrap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/authtree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/xadmin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/tree.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/member-add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/member-del.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/member-edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/member-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/member-password.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/orgtree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/webframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/welcome.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FrmPJ/settings.py" afterPath="$PROJECT_DIR$/FrmPJ/settings.py" />
-      <change beforePath="$PROJECT_DIR$/FrmPJ/urls.py" afterPath="$PROJECT_DIR$/FrmPJ/urls.py" />
-      <change beforePath="$PROJECT_DIR$/FrmPJ/wsgi.py" afterPath="$PROJECT_DIR$/FrmPJ/wsgi.py" />
-      <change beforePath="$PROJECT_DIR$/SysMGR/models.py" afterPath="$PROJECT_DIR$/SysMGR/models.py" />
-      <change beforePath="$PROJECT_DIR$/SysMGR/views.py" afterPath="$PROJECT_DIR$/SysMGR/views.py" />
-      <change beforePath="$PROJECT_DIR$/static/css/layui.css" afterPath="$PROJECT_DIR$/static/lib/layui/css/layui.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/layui.mobile.css" afterPath="$PROJECT_DIR$/static/lib/layui/css/layui.mobile.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/code.css" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/code.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/laydate/default/laydate.css" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/icon-ext.png" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/icon.png" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/layer.css" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-0.gif" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-1.gif" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-2.gif" afterPath="$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="$PROJECT_DIR$/static/font/iconfont.eot" afterPath="$PROJECT_DIR$/static/lib/layui/font/iconfont.eot" />
-      <change beforePath="$PROJECT_DIR$/static/font/iconfont.svg" afterPath="$PROJECT_DIR$/static/lib/layui/font/iconfont.svg" />
-      <change beforePath="$PROJECT_DIR$/static/font/iconfont.ttf" afterPath="$PROJECT_DIR$/static/lib/layui/font/iconfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/font/iconfont.woff" afterPath="$PROJECT_DIR$/static/lib/layui/font/iconfont.woff" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/0.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/0.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/1.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/1.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/10.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/10.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/11.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/11.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/12.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/12.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/13.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/13.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/14.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/14.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/15.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/15.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/16.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/16.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/17.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/17.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/18.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/18.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/19.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/19.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/2.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/2.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/20.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/20.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/21.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/21.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/22.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/22.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/23.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/23.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/24.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/24.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/25.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/25.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/26.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/26.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/27.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/27.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/28.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/28.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/29.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/29.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/3.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/3.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/30.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/30.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/31.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/31.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/32.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/32.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/33.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/33.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/34.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/34.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/35.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/35.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/36.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/36.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/37.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/37.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/38.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/38.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/39.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/39.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/4.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/4.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/40.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/40.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/41.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/41.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/42.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/42.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/43.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/43.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/44.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/44.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/45.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/45.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/46.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/46.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/47.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/47.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/48.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/48.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/49.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/49.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/5.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/5.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/50.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/50.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/51.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/51.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/52.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/52.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/53.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/53.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/54.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/54.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/55.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/55.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/56.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/56.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/57.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/57.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/58.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/58.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/59.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/59.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/6.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/6.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/60.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/60.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/61.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/61.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/62.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/62.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/63.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/63.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/64.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/64.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/65.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/65.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/66.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/66.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/67.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/67.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/68.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/68.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/69.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/69.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/7.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/7.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/70.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/70.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/71.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/71.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/8.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/8.gif" />
-      <change beforePath="$PROJECT_DIR$/static/images/face/9.gif" afterPath="$PROJECT_DIR$/static/lib/layui/images/face/9.gif" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/carousel.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/carousel.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/code.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/code.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/colorpicker.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/colorpicker.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/element.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/element.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/flow.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/flow.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/form.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/form.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/jquery.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laydate.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/laydate.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/layedit.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/layedit.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/layer.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/layer.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laypage.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/laypage.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laytpl.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/laytpl.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/mobile.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/mobile.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/rate.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/rate.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/slider.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/slider.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/table.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/table.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/tree.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/tree.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/upload.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/upload.js" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/util.js" afterPath="$PROJECT_DIR$/static/lib/layui/lay/modules/util.js" />
-      <change beforePath="$PROJECT_DIR$/static/layui.all.js" afterPath="$PROJECT_DIR$/static/lib/layui/layui.all.js" />
-      <change beforePath="$PROJECT_DIR$/static/layui.js" afterPath="$PROJECT_DIR$/static/lib/layui/layui.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -155,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1430">
-              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -165,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/templates/member-add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -185,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/templates/orgtree.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -195,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/static/tree.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -235,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -245,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="e#629#661#0" expanded="true" />
               </folding>
@@ -433,6 +298,14 @@
       <option name="presentableId" value="Default" />
       <updated>1535443061919</updated>
     </task>
+    <task id="LOCAL-00001" summary="PreSales Framework V1.0">
+      <created>1535937333048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535937333049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -443,9 +316,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40228426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40228426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35302594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35302594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -467,6 +340,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PreSales Framework V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreSales Framework V1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,7 +389,7 @@
         <state relative-caret-position="364">
           <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="e#221#230#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,7 +448,7 @@
         <state relative-caret-position="208">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#221#230#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,7 +515,7 @@
         <state relative-caret-position="416">
           <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
-            <element signature="e#221#230#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,7 +567,7 @@
         <state relative-caret-position="364">
           <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="e#221#230#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/templates/member-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -808,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -816,7 +693,7 @@
     <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
@@ -826,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -834,7 +711,7 @@
     <entry file="file://$PROJECT_DIR$/static/tree.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -842,7 +719,7 @@
     <entry file="file://$PROJECT_DIR$/templates/orgtree.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
