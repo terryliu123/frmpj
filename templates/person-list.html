@@ -1,0 +1,165 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+{% block  center %}
+    <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a href="">系统设置</a>
+        <a><cite>人员管理</cite></a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+     <div  class="layui-btn-group fTable">
+            <table class="layui-table">
+                <tr>
+                    <th>部门：<input class="layui-input" placeholder="所属部门" name="org" id="org"></th>
+                    <th>姓名：<input type="text" id="pname" name="pname"  placeholder="请输入用户名" autocomplete="off" class="layui-input"></th>
+                    <th>电话：<input class="layui-input" placeholder="电话" name="ptel" id="ptel"></th>
+                    <th>地址：<input class="layui-input" placeholder="地址" name="paddress" id="paddress"></th>
+                    <th><button class="layui-btn layui-btn-danger"  data-type="search"><i class="layui-icon">&#xe615;</i></button></th>
+                </tr>
+            </table>
+      </div>
+      <xblock>
+      <div class="layui-btn-group dTable">
+        <button class="layui-btn layui-btn-danger" data-type="getCheckData"><i class="layui-icon"></i>批量删除</button>
+          <button class="layui-btn" onclick="x_admin_show('添加用户','/p-detail/add/0/',650,700)"><i class="layui-icon">添加</i></button>
+      </div>
+      </xblock>
+{#        数据表格#}
+      <table class="layui-table"   lay-filter="st" id="ptable">
+
+      </table>
+{#        工具条#}
+        <script type="text/html" id="tbar">
+           <a title="启用" lay-event="upstate"><i class="layui-icon">&#xe601;</i></a>
+           <a title="编辑"  lay-event="edit"><i class="layui-icon">&#xe642;</i></a>
+           <a title="修改密码"  lay-event="modpwd"><i class="layui-icon">&#xe631;</i></a>
+           <a title="删除"  lay-event="del"><i class="layui-icon">&#xe640;</i></a>
+        </script>
+       </div>
+<script>
+layui.use('table', function(){
+  var table = layui.table;
+  $ = layui.jquery;
+
+  var tableIns = table.render({
+        elem: '#ptable'
+        ,url:"/p-list/"
+        ,page:true
+        ,height: 480
+        ,limit: 10
+        ,id:'ptable'
+        ,cols:[[
+       {checkbox:true,fixed:'left'}
+      ,{field: 'id', title: 'ID',width:"80", sort: true,fixed:'left'}
+      ,{field: 'org__text', title: '所属部门',width:"120",  sort: true}
+      ,{field: 'pname', title: '用户名', width:"130"}
+      ,{field: 'userinfo__role__rolename', title: '用户角色', width:"130"}
+      ,{field: 'psex', title: '性别', width:"80", sort: true}
+      ,{field: 'pbirthdays', title: '出生日期',width:"120"}
+      ,{field: 'ptel', title: '手机',width:"80"}
+      ,{field: 'pemail', title: '邮箱', width:"80",sort: true}
+      ,{field: 'paddress', title: '地址',width:"160"}
+      ,{field: 'pstate', title: '状态',width:"80"}
+      ,{field: 'pdate', title: '创建时间',width:"120", sort: true}
+      ,{field: 'ec', title: '操作', width:"160", toolbar:'#tbar',fixed:'right'}
+        ]]
+    });
+  //监听工具条
+  table.on('tool(st)', function(obj){
+    var data = obj.data;
+    if(obj.event === 'modpwd'){    //修改密码
+      x_admin_show('修改密码','/modpwd/detail/'+data.id+'/',500,350)
+    } else if(obj.event === 'del'){   //删除
+        layer.msg('确认要删除-'+data.pname+'-吗？', {
+          time: 0 //不自动关闭
+          , btn: ['确定', '取消']
+          , yes: function (index) {
+              layer.close(index);
+              url= "/person/del/" +data.id+"/0";
+              upstate(url);
+          }
+        });
+    } else if(obj.event === 'edit'){   //修改
+      x_admin_show('修改用户','/p-detail/mod/'+data.id+'/',650,700)
+    } else if(obj.event === 'upstate'){  //更新状态
+        var url="";
+        if(data.pstate=='启用'){
+            url = "/person/start/" +data.id+"/1/";
+          }else{
+             url = "/person/start/" +data.id+"/0/";
+          }
+          upstate(url);
+    }
+  });
+  var $ = layui.$, active = {
+    search: function() {
+        var org = $('#org');
+        var pname = $('#pname');
+        var ptel =$('#ptel');
+        var paddress =$('#paddress');
+        {#console.log(org.val());#}
+        tableIns.reload({
+            where : {
+            'org':org.val()
+           ,'pname':pname.val()
+           ,'ptel' : ptel.val()
+           ,'paddress' : paddress.val()
+            }
+        });
+    },
+    getCheckData: function(){ //批量删除
+      var checkStatus = table.checkStatus('ptable')
+      ,data = checkStatus.data;
+      if(data.length>0)
+          var ids="";
+           for (var i in data) {
+               ids+=data[i].id+",";
+           }
+          layer.msg('确认要删除吗？', {
+          time: 0 //不自动关闭
+          , btn: ['确定', '取消']
+          , yes: function (index) {
+              layer.close(index);
+              url= "/person/delall/" +ids.substring(0,ids.length-1)+"/0";//url;
+              upstate(url);
+          }
+        });
+    },
+  };
+  $('.dTable .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+  $('.fTable .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+});
+
+
+
+</script>
+<script>
+   /*用户-停用*/
+  function upstate(url){
+      $.ajax({
+        //几个参数需要注意一下
+            type: "get",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: url,//url
+            success: function (result) {
+                console.log(result);//打印服务端返回的数据(调试用)
+                alert("SUCCESS");
+                pload();
+            }
+        });
+  }
+  function pload(){
+      $(".layui-laypage-btn")[0].click();
+  }
+</script>
+{% endblock %}

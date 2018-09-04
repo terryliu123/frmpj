@@ -28,5 +28,14 @@ urlpatterns = [
     path('member-edit/', views.memberedit),
     path('member-pwd/', views.memberpwd),
     path('orgtree/', views.orgtree),
+    #-----------------------------------
+    path('login/', views.login),
+    # 人员信息管理
+    path('p-page/', views.personpage),
+    path('p-list/', views.personlist),
+    path('p-detail/<str:ectype>/<str:pid>/', views.persondetail),
+    path('person/<str:ectype>/<str:pid>/<str:state>/', views.person),
+    path('checkuser/<str:username>/', views.checkuser),
+    path('modpwd/<str:ectype>/<str:pid>/', views.modpwd),
 
  ]

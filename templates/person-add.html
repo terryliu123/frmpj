@@ -1,0 +1,210 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+{% block center %}
+<body>
+    <div class="x-body">
+        <form id="personform" method="get" class="layui-form">
+          <div class="layui-form-item">
+              <label for="pname" class="layui-form-label">
+                  <span class="x-red">*</span>所属部门
+              </label>
+              <div class="layui-input-inline">
+                <select id="org" name="org">
+                  {%  for ol in obj %}
+                        <option value="{{ ol.id }}" >{{ ol.id }}{{ ol.text }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>
+          </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="pname" class="layui-form-label">
+                  <span class="x-red">*</span>姓名
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="pname" name="pname" required="" lay-verify="nikename"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="pname" class="layui-form-label">
+                  <span class="x-red">*</span>用户名
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="username" name="username" required="" lay-verify="checkname" autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">* </span>登陆系统所使用名称
+              </div>
+          </div>
+            <div class="layui-form-item">
+              <label for="pname" class="layui-form-label">
+                  <span class="x-red">*</span>用户角色
+              </label>
+              <div class="layui-input-inline">
+                  <select id="roleid" name="roleid">
+                  {%  for ol in rolel %}
+                        <option value="{{ ol.id }}" >{{ ol.rolename }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="layui-form-mid layui-word-aux"><span class="x-red">*用户所具有的权限角色</span></div>
+          </div>
+          <div class="layui-form-item">
+              <label for="psex" class="layui-form-label">
+                  <span class="x-red">*</span>性别
+              </label>
+              <div class="layui-input-inline">
+                <select name="psex">
+                    <option value="0">男</option>
+                    <option value="1">女</option>
+                </select>
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="pbirthdays" class="layui-form-label">
+                  <span class="x-red">*</span>出生日期
+              </label>
+              <div class="layui-input-inline">
+                  <input class="layui-input" placeholder="出生日期" id="pbirthdays" name="pbirthdays" lay-verify="required" autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="ptel" class="layui-form-label">
+                  <span class="x-red">*</span>电话
+              </label>
+              <div class="layui-input-inline">
+                  <input type="tel" name="ptel" lay-verify="required|phone" autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="pemail" class="layui-form-label">
+                  <span class="x-red">*</span>邮箱
+              </label>
+              <div class="layui-input-inline">
+                   <input type="text" name="pemail" lay-verify="email" autocomplete="off" class="layui-input">
+              </div>
+          </div>
+         <div class="layui-form-item">
+              <label for="paddress" class="layui-form-label">
+                  <span class="x-red">*</span>地址
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="paddress" name="paddress" required="" lay-verify="nikename"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="pstate" class="layui-form-label">
+                  <span>状态</span>
+              </label>
+              <div class="layui-input-inline">
+                <select name="pstate">
+                    <option value="0">启用</option>
+                    <option value="1">停用</option>
+                </select>
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  6到16个字符
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="note" class="layui-form-label">简历</label>
+              <div class="layui-form-mid layui-word-aux"><textarea id="note" name="note"  placeholder="请输入内容" class="layui-textarea"></textarea></div>
+              <div class="layui-form-item">
+                  <label for="L_repass" class="layui-form-label"></label>
+                  <button class="layui-btn" lay-submit lay-filter="pform">提交</button>
+              </div>
+          </div>
+      </form>
+    </div>
+    <script>
+      layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#pbirthdays' //指定元素
+        });
+      });
+        layui.use(['form','layer'], function(){
+            $ = layui.jquery;
+          var form = layui.form;
+          {#,layer = layui.layer;#}
+          //自定义验证规则
+          form.verify({
+            nikename: function(value){
+              if(value.length < 1  && value.length >32){
+                return '内容至少得2个字符,并且不能超过32个字符！';
+              }
+            },
+              checkname:function (value) {
+                  if(value.length < 5 && value.length >12){
+                    return '用户名至少得5个字符,并且不能超过12个字符！';
+                  }
+                  if(!new RegExp("^[a-zA-Z0-9_\u4e00-\u9fa5\\s·]+$").test(value)){
+                      return '用户名不能有特殊字符';
+                  }
+                var a="";
+               $.ajax({
+            //几个参数需要注意一下
+                type: "get",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/checkuser/"+value +"/",//url
+                async:false ,
+                success: function (result) {
+                    console.log(result);
+                    a=result;
+                    return result;
+                },
+                error: function(request) {
+                    alert("Connection error");
+                },
+            });
+              {#console.log(value);#}
+             if(a == '1'){
+                 console.log("此用户名已被使用");
+                return '此用户名已被使用！';
+              }
+              }
+          });
+          form.on('submit(pform)', function(data){
+           {#layer.msg(JSON.stringify(data.field));#}
+        //发异步，把数据提交给php
+           $.ajax({
+            //几个参数需要注意一下
+                type: "get",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/person/add/0/0/" ,//url
+                data: data.field,
+                async:false,
+                success: function (result) {
+                    console.log(result);//打印服务端返回的数据(调试用)
+                    alert("SUCCESS");
+                    window.parent.pload();
+                    x_admin_close();
+                },
+                error: function(request) {
+                    alert("Connection error");
+                },
+            });
+             return false;
+       });
+
+
+        });
+    </script>
+</body>
+{% endblock %}
