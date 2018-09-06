@@ -5,19 +5,10 @@ from datetime import datetime
 from django.db.models import Count,Q
 def index(request):
     return render(request, "index.html")
-
+def test(request):
+    return render(request, "test.html")
 def welcome(request):
     return render(request, "welcome.html")
-def memberlist(request):
-    return render(request, "member-list.html")
-def memberadd(request):
-    return render(request, "member-add.html")
-def memberdel(request):
-    return render(request, "member-del.html")
-def memberedit(request):
-    return render(request, "member-edit.html")
-def memberpwd(request):
-    return render(request, "member-password.html")
 def orgtree(request):
     return render(request, "orgtree.html")
 
@@ -221,3 +212,22 @@ def modpwd(request,ectype,pid):
     elif ectype == 'mod' :
         models.UserInfo.objects.filter(person_id=pid).update(password=request.GET.get("password"))
     return HttpResponse(json.dumps('suc'), content_type="application/json")
+#---------------
+def orgload(request):
+    lis = list(models.OrgInfo.objects.all().values("id", "parent", "text"))
+    return HttpResponse(json.dumps(lis), content_type="application/json")
+def orgec(request,ectype):
+        orgid = request.POST.get('orgid')
+        text = request.POST.get('text')
+        pos = request.POST.get('pos')
+        parent = request.POST.get('parent')
+        if ectype == 'create_node' or ectype == 'copy_node':
+            obj = models.OrgInfo.objects.create(parent=parent, text=text, orderid=pos)
+            orgid = obj.id
+        elif ectype == 'rename_node':
+            models.OrgInfo.objects.filter(id=int(orgid)).update(parent=parent, text=pos)
+        elif ectype == 'move_node':
+            models.OrgInfo.objects.filter(id=int(orgid)).update(parent=parent, text=text, orderid=pos)
+        elif ectype == 'delete_node':
+            models.OrgInfo.objects.filter(id=int(orgid)).delete()
+        return HttpResponse(json.dumps(orgid), content_type="application/json")

@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>非模块化方式使用layui</title>
-  <link rel="stylesheet" href="../layui/css/layui.css">
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
 <body>
+  <div id="app">
+    <el-button @click="visible = true">Button</el-button>
+    <el-dialog :visible.sync="visible" title="Hello world">
+      <p>Try Element</p>
+    </el-dialog>
 
-<!-- 你的HTML代码 -->
-<a onclick=""></a>aaaaa
-<script src="../layui/layui.all.js"></script>
-<script>
-//由于模块都一次性加载，因此不用执行 layui.use() 来加载对应模块，直接使用即可：
-;!function(){
-  var layer = layui.layer
-  ,form = layui.form;
-
-  layer.msg('Hello World');
-}();
-</script>
+      <el-tree
+  :data="data3"
+  show-checkbox
+  node-key="id"
+  :default-expanded-keys="[2, 3]"
+  :default-checked-keys="[5]">
+</el-tree>
+  </div>
 </body>
+  <!-- import Vue before Element -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: function() {
+        return { visible: false }
+      }
+    })
+
+  </script>
+
+
+
 </html>

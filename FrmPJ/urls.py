@@ -22,12 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
     path('welcome/', views.welcome),
-    path('member-list/', views.memberlist),
-    path('member-add/', views.memberadd),
-    path('member-del/', views.memberdel),
-    path('member-edit/', views.memberedit),
-    path('member-pwd/', views.memberpwd),
     path('orgtree/', views.orgtree),
+    path('orgload/', views.orgload),
+    path('orgec/<str:ectype>/', views.orgec),  # 移动组织
+    path('test/', views.test),
     #-----------------------------------
     path('login/', views.login),
     # 人员信息管理
