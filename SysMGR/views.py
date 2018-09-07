@@ -27,6 +27,8 @@ def orgtree(request):
     return render(request, "orgtree.html")
 def rolel(request):
     return render(request, "role-list.html")
+def storagelist(request):
+    return render(request, "storage-list.html")
 #demo down
 
 # 菜单列表
@@ -292,5 +294,4 @@ def roleset(request,rid,ids):
     models.RolemenuInfo.objects.filter(role_id=rid).delete()
     for i in rids:
         models.RolemenuInfo.objects.create(role_id=rid,menu_id=i)
-    print("aaaaaaaaaaaaaaa")
     return HttpResponse(json.dumps('suc'), content_type="application/json")

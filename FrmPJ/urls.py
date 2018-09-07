@@ -43,5 +43,6 @@ urlpatterns = [
     path('role-mod/<str:ectype>/<str:rid>/', views.rolemod),
     path('role-menu/<str:roleid>/',views.rolemenulist),
     path('role-set/<str:rid>/<str:ids>/', views.roleset),
-
+    #仓储管理-------------------------
+    path('storage-list/', views.storagelist),
  ]
