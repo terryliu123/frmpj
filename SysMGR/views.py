@@ -3,8 +3,22 @@ from SysMGR import models,forms
 import re,json
 from datetime import datetime
 from django.db.models import Count,Q
+
+# 用户是否登陆有效性校验
+def user_session_filter(func):
+    def in_fun(request):
+        user_id = request.session.get("user_id")
+        if user_id == '' or user_id is None :
+            return redirect("/login/")
+        return func(request)
+    return in_fun
+
+# 主页面
+@user_session_filter
 def index(request):
-    return render(request, "index.html")
+#菜单加载
+    menulist = rolemenu(request.session['role_id'])
+    return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
 def test(request):
     return render(request, "test.html")
 def welcome(request):
