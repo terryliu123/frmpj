@@ -1,0 +1,76 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+
+{% block  center %}
+<body>
+    <div class="x-body">
+        <form class="layui-form">
+          <div class="layui-form-item">
+              <label for="L_username" class="layui-form-label">
+                  <span class="x-red">*</span>角色名称
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="rolename" name="rolename" required="" lay-verify="nikename" value="{{ obj.rolename }}"  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+           <div class="layui-form-item">
+              <label for="L_username" class="layui-form-label">
+                  备注
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="note" name="note" autocomplete="off" value="{{ obj.note }}" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+              </label>
+              <button  class="layui-btn" lay-filter="add" lay-submit="">
+                  修改
+              </button>
+          </div>
+      </form>
+    </div>
+</body>
+    <script>
+        layui.use(['form','layer'], function(){
+            $ = layui.jquery;
+          var form = layui.form
+          ,layer = layui.layer;
+          //自定义验证规则
+          form.verify({
+            nikename: function(value){
+              if(value.length < 2){
+                return '角色名称至少得2个字符啊';
+              }
+            }
+          });
+          //监听提交
+          form.on('submit(add)', function(data){
+            console.log(data);
+        //发异步，把数据提交给php
+           $.ajax({
+            //几个参数需要注意一下
+                type: "get",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/role-mod/mod/{{ obj.id }}" ,//url
+                data: data.field,
+                async:false,
+                success: function (result) {
+                    console.log(result);//打印服务端返回的数据(调试用)
+                    alert("SUCCESS");
+                    window.parent.rload();
+                    x_admin_close();
+                },
+                error: function(request) {
+                    alert("Connection error");
+                },
+            });
+             return false;
+
+          });
+
+
+        });
+    </script>
+{% endblock %}

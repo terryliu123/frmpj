@@ -1,0 +1,170 @@
+ {% extends 'webframe.html' %}  {# 导入模板文件 #}
+
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+
+{% block  center %}
+
+<link rel="stylesheet" href="/static/lib/jstree/themes/default/style.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+  <!-- 5 include the minified jstree source -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+
+<div  class="layui-btn-group fTable" width="800px">
+            <table class="layui-table">
+                <tr valign="top">
+                    <th>
+                        <div class="rTable">
+                        权限名称：
+                        <div class="layui-inline">
+                        <input class="layui-input" name="powername" id="powername" autocomplete="off">
+                        </div>
+                        <button class="layui-btn" data-type="reload">搜索</button>
+                          <button class="layui-btn" onclick="x_admin_show('添加角色','/role-page/',300,300)"><i class="layui-icon">添加角色</i></button>
+                        </div>
+                        <table class="layui-table"   lay-filter="st" id="ptable"></table>
+                    </th>
+                    <th >
+                        <div class="tTable">
+                        <span class="x-red">权限结构:</span>
+                            <div class="layui-input-inline" >
+                                <input class="layui-input "  id="search_ay" />
+                            </div>
+                            <button id="saverole" class="layui-btn layui-btn-small" >保存权限</button>
+                            <div id="jstree_div"></div>
+                        </div>
+
+                    </th>
+                </tr>
+            </table>
+      </div>
+{#        工具条#}
+        <script type="text/html" id="tbar">
+           <a title="编辑"  lay-event="edit"><i class="layui-icon">&#xe642;</i></a>
+           <a title="删除"  lay-event="del"><i class="layui-icon">&#xe640;</i></a>
+        </script>
+
+ <script>
+ var rid="1";
+layui.use('table', function(){
+  var table = layui.table;
+  $ = layui.jquery;
+   var tableIns = table.render({
+        elem: '#ptable'
+        ,url:"/role-list"
+        ,page:true
+        ,height: 480
+        ,limit: 20
+        ,id:'ptable'
+        ,cols:[[
+      {field: 'id', title: 'ID',width:"80", sort: true,event: 'setSign', style:'cursor: pointer;',fixed:'left'}
+      ,{field: 'rolename', title: '角色名称',width:"150",  sort: true,event: 'setSign', style:'cursor: pointer;'}
+      ,{field: 'note', title: '说明', width:"260",event: 'setSign', style:'cursor: pointer;'}
+      ,{field: 'note', title: '操作', width:"140",toolbar:'#tbar',fixed:'right'}
+        ]]
+    });
+    //监听工具条
+  table.on('tool(st)', function(obj){
+    var data = obj.data;
+    if(obj.event === 'edit'){    //修改
+        x_admin_show('修改角色','/role-mod/moddetail/'+data.id+'/',300,350);
+    } else if(obj.event === 'del'){   //删除
+      console.log("del");
+    } else if (obj.event  === 'setSign' ){
+         $('#jstree_div').data('jstree', false).empty();
+         $('#jstree_div').jstree({
+        'core' : {
+               'data': {
+                "url": '/role-menu/'+obj.data.id,
+                "dataType": "json",
+                success: function (data) {
+                    var arr=tojsontree(data);
+                    return arr;
+                }
+            },
+        },
+           'plugins' : ['search','checkbox',"wholerow"],
+      });
+          rid=obj.data.id;
+    }
+  });
+ var $ = layui.$, active = {
+    reload: function() {
+        var powername = $('#powername');
+        tableIns.reload({
+            where : {
+            'powername':powername.val()
+            }
+        });
+    },
+  };
+  $('.rTable .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+  $('.tTable .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+});
+function unique(arr) {
+  var result = [], hash = {};
+  for (var i = 0, elem; (elem = arr[i]) != null; i++) {
+    if (!hash[elem]) {
+      result.push(elem);
+      hash[elem] = true;
+    }
+  }
+  return result;
+}
+     {#role menu#}
+ $('#jstree_div').jstree({
+    'core' : {
+        "check_callback":function (operation, node, parent, position, more){
+            return true;
+            },
+           'data': {
+            "url": '/role-menu/1',
+            "dataType": "json",
+            success: function (data) {
+                var arr=tojsontree(data);
+                return arr;
+            }
+        },
+    },
+       'plugins' : ['search','checkbox'],
+  });
+    var to = false;
+    $('#search_ay').keyup(function () {
+         if(to) {
+         clearTimeout(to);
+         }
+         to = setTimeout(function () {
+         $('#jstree_div').jstree(true).search($('#search_ay').val());
+     }, 250);
+    });
+    $('#saverole').on('click',function(){
+        var ids = $('#jstree_div').jstree(true).get_checked();
+        var st = ids+",";
+        for (id in ids) {
+            parent = $('#jstree_div').jstree().get_node("#" + id).parent;
+            if(parent != undefined && parent !='0'){
+                st+=parent+",";
+            }
+        }
+        alert("/role-set/"+rid+"/"+unique(st.split(",")).toString()+"/");
+        addrole("/role-set/"+rid+"/"+unique(st.split(",")).toString()+"/");
+    });
+  function addrole(url){
+      $.ajax({
+        //几个参数需要注意一下
+            type: "get",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: url,//url
+            success: function (result) {
+                console.log(result);//打印服务端返回的数据(调试用)
+                alert("SUCCESS");
+            }
+        });
+  }
+</script>
+{% endblock %}

@@ -16,7 +16,6 @@ function tojsontree(data){
                    }
                }
            }
-
             for (var j = 0; j < topArr.length; j++) {
                 for (var m = 0; m < topArr[j].children.length; m++) {
                     for (var i = 0; i < jsondata.length; i++) {

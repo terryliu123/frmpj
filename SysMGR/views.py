@@ -11,7 +11,8 @@ def welcome(request):
     return render(request, "welcome.html")
 def orgtree(request):
     return render(request, "orgtree.html")
-
+def rolel(request):
+    return render(request, "role-list.html")
 #demo down
 
 # 菜单列表
@@ -231,3 +232,51 @@ def orgec(request,ectype):
         elif ectype == 'delete_node':
             models.OrgInfo.objects.filter(id=int(orgid)).delete()
         return HttpResponse(json.dumps(orgid), content_type="application/json")
+
+def rolelist(request):
+    page=int(request.GET.get("page")) # 页码的参数名称，默认：page
+    limit=int(request.GET.get("limit")) # 每页数据量的参数名，默认：limit
+    name=request.GET.get("powername",'')
+    nums = page*limit
+    obj = models.RoleInfo.objects.filter(Q(rolename__contains=name)).values("rolename","id","note")[nums-limit:nums]
+    lenl = models.RoleInfo.objects.filter(Q(rolename__contains=name)).aggregate(c=Count('id'))
+    reponse_data = {'code': 0, 'msg': '', 'count': lenl['c'], "data": list(obj)}
+    return HttpResponse(json.dumps(reponse_data), content_type="application/json")
+
+def rolemenulist(request,roleid):
+    obj = list(models.MenuInfo.objects.all().values("id","text","parent"))
+    rolemenu= list(models.RolemenuInfo.objects.filter(role_id=roleid).values("menu_id"))
+    for i in obj:
+        i['state']={'opened':False,"selected":False}
+        for r in rolemenu :
+            if i['id']== r['menu_id'] : #如果菜单中的id存在，那就选中
+                i['state']={"opened":True,"selected":True}
+            # else : #否则不选中
+            #     i['state'] = {"opened": False, "selected": False}
+    return HttpResponse(json.dumps(obj), content_type="application/json")
+
+def rolepage(request):
+    return render(request, "role-add.html")
+def roleadd(request):
+    rname=request.GET.get("rolename","")
+    rnote=request.GET.get("note","")
+    models.RoleInfo.objects.create(rolename=rname, note=rnote)
+    return HttpResponse(json.dumps('suc'), content_type="application/json")
+def rolemod(request,ectype,rid):
+    rname=request.GET.get("rolename","")
+    rnote=request.GET.get("note","")
+    if ectype == "moddetail" : #进入角色查看页面
+        obj = models.RoleInfo.objects.filter(id=rid).values("id","rolename","note").first()
+        return render(request,"role-mod.html",{"obj":obj})
+    elif ectype == "mod": #修改角色
+        models.RoleInfo.objects.filter(id=rid).update(rolename=rname, note=rnote)
+    return HttpResponse(json.dumps('suc'), content_type="application/json")
+# @transaction.atomic
+def roleset(request,rid,ids):
+    ids=ids[0:len(ids)-1]
+    rids = re.split(',', ids)
+    models.RolemenuInfo.objects.filter(role_id=rid).delete()
+    for i in rids:
+        models.RolemenuInfo.objects.create(role_id=rid,menu_id=i)
+    print("aaaaaaaaaaaaaaa")
+    return HttpResponse(json.dumps('suc'), content_type="application/json")

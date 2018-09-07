@@ -35,5 +35,13 @@ urlpatterns = [
     path('person/<str:ectype>/<str:pid>/<str:state>/', views.person),
     path('checkuser/<str:username>/', views.checkuser),
     path('modpwd/<str:ectype>/<str:pid>/', views.modpwd),
+    # 权限管理---------------------------------------------
+    path('rolel/', views.rolel),
+    path('role-list/', views.rolelist),
+    path('role-page/', views.rolepage),
+    path('role-add/', views.roleadd),
+    path('role-mod/<str:ectype>/<str:rid>/', views.rolemod),
+    path('role-menu/<str:roleid>/',views.rolemenulist),
+    path('role-set/<str:rid>/<str:ids>/', views.roleset),
 
  ]
