@@ -21,9 +21,10 @@ from SysMGR import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
-    path('welcome/', views.welcome),
+    path('main/', views.main),
     path('orgtree/', views.orgtree),
     path('orgload/', views.orgload),
+    path('baidu-map/', views.baidumap),
     path('orgec/<str:ectype>/', views.orgec),  # 移动组织
     path('test/', views.test),
     #-----------------------------------

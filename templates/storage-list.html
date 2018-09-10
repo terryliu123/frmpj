@@ -5,17 +5,43 @@
 {% block  center %}
 <body>
 
- <div  class="layui-btn-group fTable">
-            <table class="layui-table">
-                <tr>
-                    <th>部门：<input class="layui-input" placeholder="所属部门" name="org" id="org"></th>
-                    <th>姓名：<input type="text" id="pname" name="pname"  placeholder="请输入用户名" autocomplete="off" class="layui-input"></th>
-                    <th>电话：<input class="layui-input" placeholder="电话" name="ptel" id="ptel"></th>
-                    <th>地址：<input class="layui-input" placeholder="地址" name="paddress" id="paddress"></th>
-                    <th><button class="layui-btn layui-btn-danger"  data-type="search"><i class="layui-icon">&#xe615;</i></button></th>
-                </tr>
-            </table>
+
+{#查询条件的表头#}
+<div style="padding: 10px; background-color: #F2F2F2;">
+  <div class="layui-row layui-col-space15">
+    <div class="layui-form-item">
+      <div class="layui-card">
+        <div class="layui-card-header">查询</div>
+        <div class="layui-card-body">
+
+    <div class="layui-inline">
+      <label class="layui-form-label">部门</label>
+      <div class="layui-input-inline"><input class="layui-input" placeholder="所属部门" name="org" id="org"></div>
+    </div>
+    <div class="layui-inline">
+      <label class="layui-form-label">姓名</label>
+      <div class="layui-input-inline"><input type="text" id="pname" name="pname"  placeholder="请输入用户名" autocomplete="off" class="layui-input"></div>
+    </div>
+
+    <div class="layui-inline">
+      <label class="layui-form-label">电话</label>
+      <div class="layui-input-inline"><input class="layui-input" placeholder="电话" name="ptel" id="ptel"></div>
+    </div>
+     <div class="layui-inline">
+      <label class="layui-form-label">地址</label>
+      <div class="layui-input-inline"><input class="layui-input" placeholder="地址" name="paddress" id="paddress"></div>
+      <div class="layui-input-inline">
+       <button class="layui-btn layui-btn-danger"  data-type="search"><i class="layui-icon">&#xe615;</i></button>
       </div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <table class="layui-hide" id="test" lay-filter="test"></table>
 
 <script type="text/html" id="toolbarDemo">

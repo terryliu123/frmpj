@@ -43,3 +43,15 @@ class RolemenuInfo(models.Model):
     role = models.ForeignKey(RoleInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
     menu = models.ForeignKey(MenuInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
     note = models.CharField(max_length=64, default='', null=True)
+
+# 消息提醒
+class MessgeInfo(models.Model):
+    user = models.ForeignKey(UserInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
+    messge = models.CharField(max_length=64, null=True, default='')
+    state = models.CharField(max_length=32, default='', null=True)
+
+# 操作日志
+class LogInfo(models.Model):
+    user = models.ForeignKey(UserInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
+    log = models.CharField(max_length=64, null=True, default='')
+    note = models.CharField(max_length=64, default='', null=True)

@@ -21,12 +21,14 @@ def index(request):
     return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
 def test(request):
     return render(request, "test.html")
-def welcome(request):
-    return render(request, "welcome.html")
+def main(request):
+    return render(request, "main.html")
 def orgtree(request):
     return render(request, "orgtree.html")
 def rolel(request):
     return render(request, "role-list.html")
+def baidumap(request):
+    return render(request, "baidumap.html")
 def storagelist(request):
     return render(request, "storage-list.html")
 #demo down
@@ -294,4 +296,14 @@ def roleset(request,rid,ids):
     models.RolemenuInfo.objects.filter(role_id=rid).delete()
     for i in rids:
         models.RolemenuInfo.objects.create(role_id=rid,menu_id=i)
+    return HttpResponse(json.dumps('suc'), content_type="application/json")
+
+# ----------------message--------------------
+def sendmsg(request):
+    userid = request.POST.get('userid')
+    msg = request.POST.get('msg')
+    models.MessgeInfo.objects.create(user=userid,message= msg,state=0)
+    return HttpResponse(json.dumps('suc'), content_type="application/json")
+
+def loadmsg(request):
     return HttpResponse(json.dumps('suc'), content_type="application/json")

@@ -1,0 +1,289 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+
+{% block  center %}
+<body>
+
+<script src="/static/js/echarts.js"></script>
+
+
+{#2----------------2#}
+
+<div style="padding: 20px; background-color: #F2F2F2;">
+  <div class="layui-row  layui-col-space15">
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">销售指数</div>
+        <div class="layui-card-body">
+
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend>简约时间线：大事记</legend>
+</fieldset>
+<ul class="layui-timeline">
+  <li class="layui-timeline-item">
+    <i class="layui-icon layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+      <div class="layui-timeline-title">2018年，layui 5.0 发布。并发展成为中国最受欢迎的前端UI框架（期望）</div>
+    </div>
+  </li>
+  <li class="layui-timeline-item">
+    <i class="layui-icon layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+      <div class="layui-timeline-title">2017年，layui 里程碑版本 2.0 发布</div>
+    </div>
+  </li>
+  <li class="layui-timeline-item">
+    <i class="layui-icon layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+      <div class="layui-timeline-title">2016年，layui 首个版本发布</div>
+    </div>
+  </li>
+  <li class="layui-timeline-item">
+    <i class="layui-icon layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+      <div class="layui-timeline-title">2015年，layui 孵化</div>
+    </div>
+  </li>
+  <li class="layui-timeline-item">
+    <i class="layui-icon layui-anim layui-anim-rotate layui-anim-loop layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+      <div class="layui-timeline-title">更久前，轮子时代。维护几个独立组件：layer等</div>
+    </div>
+  </li>
+</ul>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-md2">
+      <div class="layui-card">
+        <div class="layui-card-header">销售目标</div>
+        <div class="layui-card-body">
+
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+              <legend>销售目标：2100万</legend>
+            </fieldset>
+            <div class="layui-progress layui-progress-big" lay-showpercent="true">
+              <div class="layui-progress-bar" lay-percent="70%"></div>
+            </div>
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+              <legend>利润目标：530万</legend>
+            </fieldset>
+            <div class="layui-progress layui-progress-big" lay-showpercent="true">
+              <div class="layui-progress-bar" lay-percent="40%"></div>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-md4">
+      <div class="layui-card">
+        <div class="layui-card-header">销售排名</div>
+        <div class="layui-card-body">
+
+            <div class="layui-form">
+  <table class="layui-table">
+    <colgroup>
+      <col width="50">
+      <col width="50">
+      <col width="100">
+
+    </colgroup>
+    <thead>
+      <tr>
+        <th>人物</th>
+        <th>民族</th>
+        <th>出场时间</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>贤心</td>
+        <td>汉族</td>
+        <td>1989-10-14</td>
+
+      </tr>
+      <tr>
+        <td>张爱玲</td>
+        <td>汉族</td>
+        <td>1920-09-30</td>
+
+      </tr>
+      <tr>
+        <td>Helen Keller</td>
+        <td>拉丁美裔</td>
+        <td>1880-06-27</td>
+
+      </tr>
+      <tr>
+        <td>岳飞</td>
+        <td>汉族</td>
+        <td>1103-北宋崇宁二年</td>
+
+      </tr>
+      <tr>
+        <td>孟子</td>
+        <td>华夏族（汉族）</td>
+        <td>公元前-372年</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+      <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">销售目标</div>
+        <div class="layui-card-body">
+
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+              <legend>销售目标：2100万</legend>
+            </fieldset>
+            <div class="layui-progress layui-progress-big" lay-showpercent="true">
+              <div class="layui-progress-bar" lay-percent="70%"></div>
+            </div>
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+              <legend>利润目标：530万</legend>
+            </fieldset>
+            <div class="layui-progress layui-progress-big" lay-showpercent="true">
+              <div class="layui-progress-bar" lay-percent="40%"></div>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+{#1---------------1#}
+<div style="padding: 20px; background-color: #F2F2F2;">
+  <div class="layui-row layui-col-space15">
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">销售指数</div>
+        <div class="layui-card-body">
+
+
+<div id="main"  style="width: 100%;height:400px;"></div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">驾驶舱</div>
+        <div class="layui-card-body">
+
+            <div id="main2"  style="width: 100%;height:400px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-md6">
+      <div class="layui-card">
+        <div class="layui-card-header">趋势图</div>
+        <div class="layui-card-body">
+
+            <div id="main3"  style="width: 100%;height:400px;"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+  <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+        var myChart2 = echarts.init(document.getElementById('main2'));
+        var myChart3 = echarts.init(document.getElementById('main3'));
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'ECharts 入门示例'
+            },
+            tooltip: {},
+            legend: {
+                data:['销量']
+            },
+            xAxis: {
+                data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+            },
+            yAxis: {},
+            series: [{
+                name: '销量',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        };
+
+         option2 = {
+            tooltip : {
+                formatter: "{a} <br/>{b} : {c}%"
+            },
+            toolbox: {
+                feature: {
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            series: [
+                {
+                    name: '业务指标',
+                    type: 'gauge',
+                    detail: {formatter:'{value}%'},
+                    data: [{value: 50, name: '完成率'}]
+                }
+            ]
+        };
+        option3 = {
+            xAxis: {
+                type: 'category',
+                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: [820, 932, 901, 934, 1290, 1330, 1320],
+                type: 'line',
+                smooth: true
+            }]
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        myChart2.setOption(option2);
+        myChart3.setOption(option3);
+        setTimeout(function (){
+	        	    window.onresize = function () {
+	        	    	myChart.resize();myChart2.resize();myChart3.resize();
+	        	    }
+            },200)
+
+     setInterval(function () {
+        option2.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
+        myChart2.setOption(option2, true);
+    },2000);
+    </script>
+{% endblock %}
