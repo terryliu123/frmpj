@@ -31,7 +31,8 @@ def baidumap(request):
     return render(request, "baidumap.html")
 def storagelist(request):
     return render(request, "storage-list.html")
-#demo down
+def storageadd(request):
+    return render(request, "storage-add.html")
 
 # 菜单列表
 def menu(userid):
