@@ -47,7 +47,7 @@ class RolemenuInfo(models.Model):
 # 消息提醒
 class MessgeInfo(models.Model):
     user = models.ForeignKey(UserInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
-    messge = models.CharField(max_length=64, null=True, default='')
+    message = models.CharField(max_length=64, null=True, default='')
     state = models.CharField(max_length=32, default='', null=True)
 
 # 操作日志

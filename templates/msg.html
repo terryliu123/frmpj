@@ -1,0 +1,25 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+
+{% block  center %}
+<body>
+<table class="layui-table" id="ptable"></table>
+
+</body>
+    <script>
+    layui.use('table', function(){
+  var table = layui.table;
+  $ = layui.jquery;
+   var tableIns = table.render({
+        elem: '#ptable'
+        ,url:"/loadmsg/"
+        ,height: 300
+        ,cols:[[
+      {field: 'message', title: '消息内容',width:"350",  sort: true,event: 'setSign', style:'cursor: pointer;'}
+      ,{field: 'state', title: '状态', width:"60",event: 'setSign', style:'cursor: pointer;'}
+        ]]
+    });
+})
+    </script>
+{% endblock %}

@@ -118,7 +118,8 @@ def login(request):
             # 人员基本信息ID
             request.session["person_id"] = str(lis[0]['person_id'])
             menulist = rolemenu(request.session["role_id"])
-            return render(request, "index.html", {'menulist': menulist,'username':uname})
+            msgcount = models.MessgeInfo.objects.filter(user=str(lis[0]['id'])).aggregate(c=Count('id'))
+            return render(request, "index.html", {'menulist': menulist,'username':uname,"msgcount":msgcount['c']})
         else :
             return render(request,"login.html",{'error_msg':'用户名密码错误！'})
     else :
@@ -304,6 +305,11 @@ def sendmsg(request):
     msg = request.POST.get('msg')
     models.MessgeInfo.objects.create(user=userid,message= msg,state=0)
     return HttpResponse(json.dumps('suc'), content_type="application/json")
-
+def msglist(request):
+    return render(request, "msg.html")
 def loadmsg(request):
-    return HttpResponse(json.dumps('suc'), content_type="application/json")
+    userid = request.session.get("user_id")
+    lis=list(models.MessgeInfo.objects.filter(user=userid,state=0).values("message","state"))
+
+    reponse_data = {'code': 0, 'msg': '', 'count': len(lis), "data": lis}
+    return HttpResponse(json.dumps(reponse_data), content_type="application/json")

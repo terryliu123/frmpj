@@ -24,12 +24,13 @@
           <li class="layui-nav-item">
             <a href="javascript:;">{{ username }}</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onclick="x_admin_show('个人信息','http://www.baidu.com')">个人信息</a></dd>
+              <dd><a onclick="x_admin_show('消息提醒','http://www.baidu.com')">个人信息</a></dd>
               <dd><a onclick="x_admin_show('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
               <dd><a href="login.html">退出</a></dd>
             </dl>
           </li>
-          <li class="layui-nav-item to-index"><a href="/index/">前台首页</a></li>
+            <li class="layui-nav-item to-index"><a href="javascript:;"  onclick="msgshow()">消息提醒<span class="layui-badge">{{ msgcount }}</span></a></li>
+
         </ul>
 
     </div>
@@ -100,6 +101,20 @@
         </div>
     </div>
     <div class="page-content-bg"></div>
+
+    <script>
+    function msgshow() {
+        layer.open({
+            type: 2,
+            title: '消息提醒',
+            shadeClose: true,
+            shade: 0.8,
+            area: ['480px', '350px'],
+            content: '/msglist/' //iframe的url
+        });
+    }
+
+    </script>
     <!-- 右侧主体结束 -->
     <!-- 中部结束 -->
     <!-- 底部开始 -->
