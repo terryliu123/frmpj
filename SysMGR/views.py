@@ -19,20 +19,13 @@ def index(request):
 #菜单加载
     menulist = rolemenu(request.session['role_id'])
     return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
-def test(request):
-    return render(request, "test.html")
+
 def main(request):
     return render(request, "main.html")
 def orgtree(request):
     return render(request, "orgtree.html")
 def rolel(request):
     return render(request, "role-list.html")
-def baidumap(request):
-    return render(request, "baidumap.html")
-def storagelist(request):
-    return render(request, "storage-list.html")
-def storageadd(request):
-    return render(request, "storage-add.html")
 
 # 菜单列表
 def menu(userid):

@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'SysMGR',
     'FrmPJ',
+    'Store',
+    'AiStore',
 ]
 
 MIDDLEWARE = [

@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from SysMGR import views
-
+from Store import storeviews
+from AiStore import aiview
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,9 +25,7 @@ urlpatterns = [
     path('main/', views.main),
     path('orgtree/', views.orgtree),
     path('orgload/', views.orgload),
-    path('baidu-map/', views.baidumap),
     path('orgec/<str:ectype>/', views.orgec),  # 移动组织
-    path('test/', views.test),
     #-----------------------------------
     path('login/', views.login),
     # 人员信息管理
@@ -45,10 +44,15 @@ urlpatterns = [
     path('role-menu/<str:roleid>/',views.rolemenulist),
     path('role-set/<str:rid>/<str:ids>/', views.roleset),
     #仓储管理-------------------------
-    path('storage-list/', views.storagelist),
-    path('storage-add/', views.storageadd),
+    path('storage-list/', storeviews.storagelist),
+    path('storage-add/', storeviews.storageadd),
+    path('baidu-map/', storeviews.baidumap),
+    path('report/', storeviews.report),
     #    ----------Msg---------------
     path('msglist/', views.msglist),
     path('loadmsg/', views.loadmsg),
     path('sendmsg/', views.sendmsg),
+ #    AI------------------------------
+    path('ocrai/', aiview.ocrai),
+    path('test/', aiview.test),
  ]
