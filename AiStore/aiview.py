@@ -20,7 +20,7 @@ def ocrai(request):
 
     url = request.POST.get('url')
     print(url)
-    filePath =url
+    filePath ='C:/pythondev/timg.jpg'
     # filePath = "C:\pythondev\denggao.jpeg"
     def get_file_content(filePath):
         with open(filePath, 'rb') as fp:
