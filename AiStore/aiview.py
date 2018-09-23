@@ -1,71 +1,89 @@
-from django.shortcuts import render,HttpResponse,redirect
-import re,json
-from datetime import datetime
-from django.db.models import Count,Q
-from aip import AipOcr
+# -*- coding: utf-8 -*-
+# 摄像头头像识别
+import face_recognition
+import cv2
 
+video_capture = cv2.VideoCapture(0)
 
+# 本地图像
+biden_image = face_recognition.load_image_file("C:/pythondev/biden.jpg")
+biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
 
+# 本地图像二
+obama_image = face_recognition.load_image_file("C:/pythondev/obama.jpg")
+obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+print(obama_face_encoding)
+# 本地图片三
+terry_image = face_recognition.load_image_file("C:/pythondev/terry.jpg")
+terry_face_encoding = face_recognition.face_encodings(terry_image)[0]
 
+# Create arrays of known face encodings and their names
+# 脸部特征数据的集合
+known_face_encodings = [
+    biden_face_encoding,
+    obama_face_encoding,
+    terry_face_encoding
+]
 
-def test(request):
-    return render(request, "test.html")
-def ocrai(request):
-    # 定义常量
-    APP_ID = '11963255'
-    API_KEY = 'sk530p40dC9zeAPEfv3QsRKU'
-    SECRET_KEY = 'kjK7BniOOtZgAzDUebixZSlK1HlVcZZo'
-    # 初始化AipFace对象
-    aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
-    # 读取图片
-    url = request.POST.get('url')
-    print(url)
-    filePath ='C:/pythondev/timg.jpg'
-    # filePath = "C:\pythondev\denggao.jpeg"
-    def get_file_content(filePath):
-        with open(filePath, 'rb') as fp:
-            return fp.read()
-        # 定义参数变量
-    options = {
-        'detect_direction': 'true',
-        'language_type': 'CHN_ENG',
-    }
-    # 调用通用文字识别接口
-    result = aipOcr.basicGeneral(get_file_content(filePath), options)
-    return HttpResponse(json.dumps(result), content_type="application/json")
+# 人物名称的集合
+known_face_names = [
+    "michong",
+    "sunyizheng",
+    "terry"
+]
+face_locations = []
+face_encodings = []
+face_names = []
+process_this_frame = True
 
-def piccheck():
-    APP_ID = '14131784'
-    API_KEY = 'nAfbeuX0qj6ksjHIZGGzecCn'
-    SECRET_KEY = 'XMXqW4GPjQ8aVoZvQUXPo2IXFN5aG6Qn '
-    client = AipFace(APP_ID, API_KEY, SECRET_KEY)
+while True:
+    # 读取摄像头画面
+    ret, frame = video_capture.read()
 
-    IMAGE_TYPE = 'BASE64'
+    # 改变摄像头图像的大小，图像小，所做的计算就少
+    small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
 
-    f1 = open('C:/pythondev/1.jpg', 'rb')
-    f2 = open('C:/pythondev/2.jpg', 'rb')
-    # 参数image：图像base64编码 分别base64编码后的2张图片数据
-    img1 = base64.b64encode(f1.read())
-    img2 = base64.b64encode(f2.read())
-    image_1 = str(img1, 'utf-8')
-    image_2 = str(img2, 'utf-8')
+    # opencv的图像是BGR格式的，而我们需要是的RGB格式的，因此需要进行一个转换。
+    rgb_small_frame = small_frame[:, :, ::-1]
 
-    ptr = client.match([
-        {
-            'image': image_1,
-            'image_type': 'BASE64',
-        },
-        {
-            'image': image_2,
-            'image_type': 'BASE64',
-        }
-    ])
-    ptr = ptr['result']
-    print(ptr)
-    if ptr['score'] <= 50:
-        print('这俩人不像：哈哈哈', ptr['score'])
-    else:
-        print('piupiupiu：孪生兄弟啊', ptr['score'])
-    return HttpResponse(json.dumps(ptr), content_type="application/json")
+    # Only process every other frame of video to save time
+    if process_this_frame:
+        # 根据encoding来判断是不是同一个人，是就输出true，不是为flase
+        face_locations = face_recognition.face_locations(rgb_small_frame)
+        face_encodings = face_recognition.face_encodings(rgb_small_frame, face_locations)
+        face_names = []
+        for face_encoding in face_encodings:
+            # 默认为unknown
+            matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+            name = "Unknown"
 
+            # if match[0]:
+            #     name = "michong"
+            # If a match was found in known_face_encodings, just use the first one.
+            if True in matches:
+                first_match_index = matches.index(True)
+                name = known_face_names[first_match_index]
+            face_names.append(name)
+    process_this_frame = not process_this_frame
 
+    # 将捕捉到的人脸显示出来
+    for (top, right, bottom, left), name in zip(face_locations, face_names):
+        # Scale back up face locations since the frame we detected in was scaled to 1/4 size
+        top *= 4
+        right *= 4
+        bottom *= 4
+        left *= 4
+        # 矩形框
+        cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
+        #加上标签
+        cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
+        font = cv2.FONT_HERSHEY_DUPLEX
+        cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+    # Display
+    cv2.imshow('monitor', frame)
+    # 按Q退出
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+video_capture.release()
+cv2.destroyAllWindows()

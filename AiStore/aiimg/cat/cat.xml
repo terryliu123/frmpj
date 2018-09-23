@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\1.jpg'>
+    <box top='45' left='141' width='210' height='163'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\10.jpg'>
+    <box top='70' left='25' width='184' height='136'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\11.jpg'>
+    <box top='26' left='107' width='188' height='177'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\12.jpg'>
+    <box top='43' left='149' width='256' height='246'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\13.jpg'>
+    <box top='58' left='243' width='143' height='135'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\14.jpg'>
+    <box top='4' left='156' width='122' height='111'/>
+    <box top='3' left='278' width='137' height='127'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\15.jpg'>
+    <box top='32' left='216' width='113' height='91'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\17.jpg'>
+    <box top='17' left='178' width='229' height='218'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\18.jpg'>
+    <box top='33' left='84' width='188' height='181'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\19.jpg'>
+    <box top='120' left='108' width='308' height='310'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\2.jpg'>
+    <box top='58' left='121' width='161' height='162'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\3.jpg'>
+    <box top='121' left='59' width='220' height='195'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\4.jpg'>
+    <box top='36' left='138' width='250' height='236'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\5.jpg'>
+    <box top='13' left='257' width='168' height='170'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\6.jpg'>
+    <box top='67' left='32' width='176' height='126'/>
+    <box top='9' left='245' width='157' height='140'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\7.jpg'>
+    <box top='22' left='110' width='222' height='238'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\8.jpg'>
+    <box top='58' left='150' width='181' height='162'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\9.jpg'>
+    <box top='106' left='216' width='156' height='159'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\32.jpg'>
+    <box top='42' left='51' width='122' height='104'/>
+    <box top='42' left='185' width='116' height='114'/>
+    <box top='-2' left='298' width='99' height='106'/>
+  </image>
+  <image file='C:\Users\kk\Downloads\dlib-19.15\tools\imglab\build\images\cat\34.jpg'>
+    <box top='148' left='34' width='154' height='156'/>
+  </image>
+</images>
+</dataset>

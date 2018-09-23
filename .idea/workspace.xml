@@ -2,8 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe5074b-0f50-44b3-81a7-c46961c4ef6f" name="默认的" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/31.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/32.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/33.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/34.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/cat.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/cat.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/32.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/33.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/34.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/cats.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1702063505,460402011&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1755258059,2383056012&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=198443279,925180209&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2438954973,4014703060&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2456189512,1128783987&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2839902684,1910437020&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2974245978,3706238451&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=3176656704,4135871960&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=3544828853,3668327281&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4167085792,1404700273&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4167773167,2977839953&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4204391277,3625337122&amp;fm=26&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=676270128,3962418481&amp;fm=200&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/detector.svm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/image_metadata_stylesheet.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/imglab.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/mydataset.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/modeltrain.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/scene_recognition.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AiStore/test2.py" afterPath="$PROJECT_DIR$/AiStore/test2.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/aiview.py" afterPath="$PROJECT_DIR$/AiStore/aiview.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/test.py" afterPath="$PROJECT_DIR$/AiStore/id_recognition.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/test2.py" afterPath="$PROJECT_DIR$/AiStore/f_recognition.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +89,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FrmPJ$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1537525555756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1537680128781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$modeltrain.coverage" NAME="modeltrain Coverage Results" MODIFIED="1537692601774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1537500081648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FrmPJ" />
     <SUITE FILE_PATH="coverage/FrmPJ$aiview.coverage" NAME="aiview Coverage Results" MODIFIED="1536912222128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$test.coverage" NAME="test Coverage Results" MODIFIED="1537499184000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FrmPJ" />
     <SUITE FILE_PATH="coverage/FrmPJ$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1537520565209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$scene_recognition.coverage" NAME="scene_recognition Coverage Results" MODIFIED="1537696526989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$get_pip.coverage" NAME="get-pip Coverage Results" MODIFIED="1537494405533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -25,89 +103,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
+      <file leaf-file-name="id_recognition.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiStore/id_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aiview.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AiStore/aiview.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrmPJ/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orgtree.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/orgtree.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="271">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrmPJ/settings.py">
+      <file leaf-file-name="modeltrain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiStore/modeltrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrmPJ/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="89">
+              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#24#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AiStore/test.py">
+      <file leaf-file-name="scene_recognition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AiStore/scene_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="167">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AiStore/test2.py">
+      <file leaf-file-name="f_recognition.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiStore/f_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="401">
+              <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
                 <element signature="e#34#57#0" expanded="true" />
               </folding>
@@ -204,12 +238,14 @@
         <option value="$PROJECT_DIR$/FrmPJ/settings.py" />
         <option value="$PROJECT_DIR$/FrmPJ/urls.py" />
         <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/AiStore/aiview.py" />
         <option value="$PROJECT_DIR$/FrmPJ/test.py" />
         <option value="$PROJECT_DIR$/AiStore/test.py" />
         <option value="$PROJECT_DIR$/FrmPJ/test2.py" />
         <option value="$PROJECT_DIR$/AiStore/ft2.py" />
         <option value="$PROJECT_DIR$/AiStore/test2.py" />
+        <option value="$PROJECT_DIR$/AiStore/aiview.py" />
+        <option value="$PROJECT_DIR$/AiStore/modeltrain.py" />
+        <option value="$PROJECT_DIR$/AiStore/scene_recognition.py" />
       </list>
     </option>
   </component>
@@ -241,8 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,17 +292,20 @@
             <path>
               <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="AiStore" type="462c0819:PsiDirectoryNode" />
+              <item name="aiimg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,11 +317,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pythondev\FrmPJ\AiStore" />
       <recent name="C:\pythondev\FrmPJ\templates" />
       <recent name="C:\pythondev\FrmPJ\static\lib" />
       <recent name="C:\pythondev\FrmPJ\static" />
       <recent name="C:\pythondev\FrmPJ\static\js" />
-      <recent name="C:\pythondev\FrmPJ\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,21 +336,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2 (1)">
-    <configuration name="get-pip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.scene_recognition">
+    <configuration name="modeltrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiStore" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/get-pip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/modeltrain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="scene_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiStore" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FrmPJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/scene_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,26 +388,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FrmPJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FrmPJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FrmPJ/test.py" />
+      <option name="SCRIPT_NAME" value="C:\pythondev\FrmPJ\AiStore\id_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +407,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/test2.py" />
+      <option name="SCRIPT_NAME" value="C:\pythondev\FrmPJ\AiStore\f_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,19 +457,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.FrmPJ" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get-pip" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test2 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test2 (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.modeltrain" />
+      <item index="5" class="java.lang.String" itemvalue="Python.scene_recognition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test2 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.get-pip" />
+        <item index="0" class="java.lang.String" itemvalue="Python.scene_recognition" />
+        <item index="1" class="java.lang.String" itemvalue="Python.modeltrain" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test2 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537521222609</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="PreSales Framework V1.8 Add FaceAI">
+      <created>1537525617142</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537525617142</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -575,12 +619,13 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28291622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -626,30 +671,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/member-list.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/authtree.js" />
-    <entry file="file://$PROJECT_DIR$/templates/member-edit.html" />
-    <entry file="file://$PROJECT_DIR$/FrmPJ/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrmPJ/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -859,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4108">
           <caret line="158" column="3" lean-forward="false" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,10 +901,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="5954">
           <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="41" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,16 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/aiview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -913,47 +923,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/kk.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/ft2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrmPJ/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrmPJ/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/kk.jpg" />
+    <entry file="file://$PROJECT_DIR$/AiStore/ft2.py" />
     <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -962,12 +933,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/test2.py">
+    <entry file="file://$PROJECT_DIR$/FrmPJ/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="115">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#34#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/image_metadata_stylesheet.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/detector.svm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/mydataset.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/modeltrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/f_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding>
             <element signature="e#34#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/id_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/31">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/scene_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,23 +6,23 @@ import cv2
 video_capture = cv2.VideoCapture(0)
 
 # 本地图像
-chenduling_image = face_recognition.load_image_file("C:/pythondev/biden.jpg")
-chenduling_face_encoding = face_recognition.face_encodings(chenduling_image)[0]
+biden_image = face_recognition.load_image_file("C:/pythondev/biden.jpg")
+biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
 
 # 本地图像二
-sunyizheng_image = face_recognition.load_image_file("C:/pythondev/obama.jpg")
-sunyizheng_face_encoding = face_recognition.face_encodings(sunyizheng_image)[0]
-
+obama_image = face_recognition.load_image_file("C:/pythondev/obama.jpg")
+obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+print(obama_face_encoding)
 # 本地图片三
-zhangzetian_image = face_recognition.load_image_file("C:/pythondev/terry.jpg")
-zhangzetian_face_encoding = face_recognition.face_encodings(zhangzetian_image)[0]
+terry_image = face_recognition.load_image_file("C:/pythondev/terry.jpg")
+terry_face_encoding = face_recognition.face_encodings(terry_image)[0]
 
 # Create arrays of known face encodings and their names
 # 脸部特征数据的集合
 known_face_encodings = [
-    chenduling_face_encoding,
-    sunyizheng_face_encoding,
-    zhangzetian_face_encoding
+    biden_face_encoding,
+    obama_face_encoding,
+    terry_face_encoding
 ]
 
 # 人物名称的集合
@@ -31,7 +31,6 @@ known_face_names = [
     "sunyizheng",
     "terry"
 ]
-
 face_locations = []
 face_encodings = []
 face_names = []
@@ -52,7 +51,6 @@ while True:
         # 根据encoding来判断是不是同一个人，是就输出true，不是为flase
         face_locations = face_recognition.face_locations(rgb_small_frame)
         face_encodings = face_recognition.face_encodings(rgb_small_frame, face_locations)
-
         face_names = []
         for face_encoding in face_encodings:
             # 默认为unknown
@@ -66,7 +64,6 @@ while True:
                 first_match_index = matches.index(True)
                 name = known_face_names[first_match_index]
             face_names.append(name)
-
     process_this_frame = not process_this_frame
 
     # 将捕捉到的人脸显示出来
@@ -76,18 +73,14 @@ while True:
         right *= 4
         bottom *= 4
         left *= 4
-
         # 矩形框
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
-
         #加上标签
         cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
-
     # Display
     cv2.imshow('monitor', frame)
-
     # 按Q退出
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
