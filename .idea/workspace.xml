@@ -2,84 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe5074b-0f50-44b3-81a7-c46961c4ef6f" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/32.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/34.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/cat.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/cat.xsl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/31.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/34.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/cats.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1702063505,460402011&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1755258059,2383056012&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=198443279,925180209&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2438954973,4014703060&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2456189512,1128783987&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2839902684,1910437020&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2974245978,3706238451&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=3176656704,4135871960&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=3544828853,3668327281&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4167085792,1404700273&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4167773167,2977839953&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=4204391277,3625337122&amp;fm=26&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/cat/test/u=676270128,3962418481&amp;fm=200&amp;gp=0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/detector.svm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/image_metadata_stylesheet.xsl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/imglab.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/aiimg/jgfs/mydataset.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/modeltrain.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AiStore/scene_recognition.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FrmPJ/celery.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FrmPJ/tasks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SysMGR/migrations/0005_auto_20180926_1738.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SysMGR/migrations/0006_delete_faceinfo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SysMGR/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/face-page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pface-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/upload.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/FrmPJ.iml" afterPath="$PROJECT_DIR$/.idea/FrmPJ.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/AiStore/aiview.py" afterPath="$PROJECT_DIR$/AiStore/aiview.py" />
-      <change beforePath="$PROJECT_DIR$/AiStore/test.py" afterPath="$PROJECT_DIR$/AiStore/id_recognition.py" />
-      <change beforePath="$PROJECT_DIR$/AiStore/test2.py" afterPath="$PROJECT_DIR$/AiStore/f_recognition.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/id_recognition.py" afterPath="$PROJECT_DIR$/AiStore/id_recognition.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/modeltrain.py" afterPath="$PROJECT_DIR$/AiStore/modeltrain.py" />
+      <change beforePath="$PROJECT_DIR$/AiStore/scene_recognition.py" afterPath="$PROJECT_DIR$/AiStore/scene_recognition.py" />
+      <change beforePath="$PROJECT_DIR$/FrmPJ/__init__.py" afterPath="$PROJECT_DIR$/FrmPJ/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/FrmPJ/settings.py" afterPath="$PROJECT_DIR$/FrmPJ/settings.py" />
+      <change beforePath="$PROJECT_DIR$/FrmPJ/urls.py" afterPath="$PROJECT_DIR$/FrmPJ/urls.py" />
+      <change beforePath="$PROJECT_DIR$/SysMGR/models.py" afterPath="$PROJECT_DIR$/SysMGR/models.py" />
+      <change beforePath="$PROJECT_DIR$/SysMGR/views.py" afterPath="$PROJECT_DIR$/SysMGR/views.py" />
+      <change beforePath="$PROJECT_DIR$/templates/person-mod.html" afterPath="$PROJECT_DIR$/templates/person-mod.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,12 +33,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FrmPJ$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1537680128781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
-    <SUITE FILE_PATH="coverage/FrmPJ$modeltrain.coverage" NAME="modeltrain Coverage Results" MODIFIED="1537692601774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$id_recognition.coverage" NAME="id_recognition Coverage Results" MODIFIED="1537956064931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1537500081648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FrmPJ" />
-    <SUITE FILE_PATH="coverage/FrmPJ$aiview.coverage" NAME="aiview Coverage Results" MODIFIED="1536912222128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
-    <SUITE FILE_PATH="coverage/FrmPJ$test.coverage" NAME="test Coverage Results" MODIFIED="1537499184000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FrmPJ" />
+    <SUITE FILE_PATH="coverage/FrmPJ$aiview.coverage" NAME="aiview Coverage Results" MODIFIED="1537856458562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$text_detection_video.coverage" NAME="text_detection_video Coverage Results" MODIFIED="1537952568856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1537520565209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
-    <SUITE FILE_PATH="coverage/FrmPJ$scene_recognition.coverage" NAME="scene_recognition Coverage Results" MODIFIED="1537696526989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$text_detection__1_.coverage" NAME="text_detection (1) Coverage Results" MODIFIED="1537952631048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore/text_detection-master" />
+    <SUITE FILE_PATH="coverage/FrmPJ$modeltrain.coverage" NAME="modeltrain Coverage Results" MODIFIED="1537864228681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$brow_recognition.coverage" NAME="brow_recognition Coverage Results" MODIFIED="1537865400024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$text_detection.coverage" NAME="text_detection Coverage Results" MODIFIED="1537952589385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$f_recognition.coverage" NAME="f_recognition Coverage Results" MODIFIED="1537857227711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
+    <SUITE FILE_PATH="coverage/FrmPJ$text_detection_video__1_.coverage" NAME="text_detection_video (1) Coverage Results" MODIFIED="1537952637134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore/text_detection-master" />
+    <SUITE FILE_PATH="coverage/FrmPJ$test.coverage" NAME="test Coverage Results" MODIFIED="1537499184000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FrmPJ" />
+    <SUITE FILE_PATH="coverage/FrmPJ$scene_recognition.coverage" NAME="scene_recognition Coverage Results" MODIFIED="1537864252426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AiStore" />
     <SUITE FILE_PATH="coverage/FrmPJ$get_pip.coverage" NAME="get-pip Coverage Results" MODIFIED="1537494405533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -103,33 +53,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="id_recognition.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="id_recognition.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AiStore/id_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="208">
+              <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modeltrain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AiStore/modeltrain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scene_recognition.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scene_recognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AiStore/scene_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="433">
+              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -137,14 +75,86 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+              <folding>
+                <element signature="e#629#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="face-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/face-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiStore/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SysMGR/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pface-demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pface-demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="f_recognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AiStore/f_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-              <folding>
-                <element signature="e#34#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -181,12 +191,13 @@
       <find>lo</find>
       <find>rolemenu</find>
       <find>edit</find>
-      <find>create</find>
       <find>login</find>
       <find>personlist</find>
       <find>report</find>
       <find>$</find>
       <find>orgec</find>
+      <find>snap</find>
+      <find>create</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,19 +209,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FrmPJ/__init__.py" />
-        <option value="$PROJECT_DIR$/FrmPJ/wsgi.py" />
-        <option value="$PROJECT_DIR$/templates/head.html" />
-        <option value="$PROJECT_DIR$/templates/shoot.html" />
-        <option value="$PROJECT_DIR$/templates/member-add.html" />
-        <option value="$PROJECT_DIR$/templates/member-edit.html" />
         <option value="$PROJECT_DIR$/templates/member-del.html" />
         <option value="$PROJECT_DIR$/templates/member-list.html" />
         <option value="$PROJECT_DIR$/templates/content.html" />
         <option value="$PROJECT_DIR$/SysMGR/forms.py" />
         <option value="$PROJECT_DIR$/templates/user-pwd.html" />
         <option value="$PROJECT_DIR$/templates/person-add.html" />
-        <option value="$PROJECT_DIR$/templates/person-mod.html" />
         <option value="$PROJECT_DIR$/templates/welcome.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/webframe.html" />
@@ -225,27 +229,37 @@
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/baidumap.html" />
         <option value="$PROJECT_DIR$/templates/msg.html" />
-        <option value="$PROJECT_DIR$/SysMGR/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/storage-add.html" />
         <option value="$PROJECT_DIR$/templates/storage-list.html" />
         <option value="$PROJECT_DIR$/templates/report.html" />
         <option value="$PROJECT_DIR$/Store/__init__.py" />
         <option value="$PROJECT_DIR$/Store/models.py" />
-        <option value="$PROJECT_DIR$/SysMGR/views.py" />
         <option value="$PROJECT_DIR$/Store/views.py" />
         <option value="$PROJECT_DIR$/AiStore/models.py" />
-        <option value="$PROJECT_DIR$/FrmPJ/settings.py" />
-        <option value="$PROJECT_DIR$/FrmPJ/urls.py" />
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/FrmPJ/test.py" />
         <option value="$PROJECT_DIR$/AiStore/test.py" />
         <option value="$PROJECT_DIR$/FrmPJ/test2.py" />
         <option value="$PROJECT_DIR$/AiStore/ft2.py" />
         <option value="$PROJECT_DIR$/AiStore/test2.py" />
+        <option value="$PROJECT_DIR$/templates/person-mod.html" />
         <option value="$PROJECT_DIR$/AiStore/aiview.py" />
+        <option value="$PROJECT_DIR$/templates/face-page.html" />
+        <option value="$PROJECT_DIR$/SysMGR/test.py" />
+        <option value="$PROJECT_DIR$/FrmPJ/celery.py" />
+        <option value="$PROJECT_DIR$/FrmPJ/tasks.py" />
+        <option value="$PROJECT_DIR$/FrmPJ/settings.py" />
+        <option value="$PROJECT_DIR$/FrmPJ/__init__.py" />
         <option value="$PROJECT_DIR$/AiStore/modeltrain.py" />
         <option value="$PROJECT_DIR$/AiStore/scene_recognition.py" />
+        <option value="$PROJECT_DIR$/AiStore/brow_recognition.py" />
+        <option value="$PROJECT_DIR$/templates/upload.html" />
+        <option value="$PROJECT_DIR$/templates/pface-demo.html" />
+        <option value="$PROJECT_DIR$/FrmPJ/urls.py" />
+        <option value="$PROJECT_DIR$/SysMGR/models.py" />
+        <option value="$PROJECT_DIR$/SysMGR/views.py" />
+        <option value="$PROJECT_DIR$/AiStore/id_recognition.py" />
       </list>
     </option>
   </component>
@@ -277,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,19 +307,33 @@
             <path>
               <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="AiStore" type="462c0819:PsiDirectoryNode" />
-              <item name="aiimg" type="462c0819:PsiDirectoryNode" />
+              <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="SysMGR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrmPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrmPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -336,8 +365,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scene_recognition">
-    <configuration name="modeltrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Django server.FrmPJ">
+    <configuration name="id_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -350,13 +379,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/modeltrain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/id_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="scene_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text_detection (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiStore/text_detection-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FrmPJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/text_detection-master/text_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="text_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -369,13 +417,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/scene_recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/text_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text_detection_video (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiStore/text_detection-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FrmPJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/text_detection-master/text_detection_video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="text_detection_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -388,45 +455,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FrmPJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\pythondev\FrmPJ\AiStore\id_recognition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiStore" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FrmPJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\pythondev\FrmPJ\AiStore\f_recognition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FrmPJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FrmPJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FrmPJ/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiStore/text_detection_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,19 +486,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.FrmPJ" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test2 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.modeltrain" />
-      <item index="5" class="java.lang.String" itemvalue="Python.scene_recognition" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text_detection_video" />
+      <item index="2" class="java.lang.String" itemvalue="Python.text_detection" />
+      <item index="3" class="java.lang.String" itemvalue="Python.text_detection (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.text_detection_video (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.id_recognition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.scene_recognition" />
-        <item index="1" class="java.lang.String" itemvalue="Python.modeltrain" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test2 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.id_recognition" />
+        <item index="1" class="java.lang.String" itemvalue="Python.text_detection_video (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.text_detection (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.text_detection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.text_detection_video" />
       </list>
     </recent_temporary>
   </component>
@@ -606,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537525617142</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="PreSales Framework V1.8 Add FaceAI">
+      <created>1537696630129</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537696630129</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -616,27 +652,27 @@
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28291622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@FrmPJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@FrmPJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,199 +702,319 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FrmPJ/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SysMGR/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="16" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/person-pwd.html" />
-    <entry file="file://$PROJECT_DIR$/templates/user-pwd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="79" column="11" lean-forward="false" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/person-mod.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6188">
-          <caret line="238" column="14" lean-forward="false" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/34.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/tree.json" />
-    <entry file="file://$PROJECT_DIR$/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=198443279,925180209&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/webframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=676270128,3962418481&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/role-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="31" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1702063505,460402011&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/role-mod.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1612">
-          <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=1755258059,2383056012&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2438954973,4014703060&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/role-list.html">
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2456189512,1128783987&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2839902684,1910437020&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=2974245978,3706238451&amp;fm=200&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/u=3176656704,4135871960&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/echarts.js">
+    <entry file="file://$PROJECT_DIR$/static/images/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="90331" column="24" lean-forward="true" selection-start-line="90331" selection-start-column="24" selection-end-line="90331" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="189" column="10" lean-forward="false" selection-start-line="177" selection-start-column="3" selection-end-line="189" selection-end-column="10" />
+        <state relative-caret-position="-78">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/baidumap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/msg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/xadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/person-mod.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#2054#2074#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/storage-add.html">
+    <entry file="file://$PROJECT_DIR$/templates/webframe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4160">
-          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        <state relative-caret-position="303">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/data.json">
+    <entry file="file://$PROJECT_DIR$/templates/person-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/aiview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="152" lean-forward="false" selection-start-line="0" selection-start-column="152" selection-end-line="0" selection-end-column="152" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/storage-list.html">
+    <entry file="file://$PROJECT_DIR$/SysMGR/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        <state relative-caret-position="52">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="e#304#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrmPJ/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/modeltrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/brow_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1205">
+          <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/text_detection_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/text_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/text_detection-master/text_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/text_detection-master/text_detection_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3961">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/u.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/person-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2236">
-          <caret line="86" column="68" lean-forward="false" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="68" />
+        <state relative-caret-position="367">
+          <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/report.html">
+    <entry file="file://$PROJECT_DIR$/static/images/testface1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pface-demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="419">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SysMGR/__init__.py">
+    <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="277">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SysMGR/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Store/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Store/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/__init__.py">
+    <entry file="file://$PROJECT_DIR$/templates/face-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,170 +1022,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Store/storeviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/person-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4108">
-          <caret line="158" column="3" lean-forward="false" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrmPJ/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/orgtree.html">
+    <entry file="file://$PROJECT_DIR$/SysMGR/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="713">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5954">
-          <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/get-pip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1898">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/kk.jpg" />
-    <entry file="file://$PROJECT_DIR$/AiStore/ft2.py" />
-    <entry file="file://$PROJECT_DIR$/FrmPJ/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        <state relative-caret-position="208">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrmPJ/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrmPJ/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/aiview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#34#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/image_metadata_stylesheet.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/detector.svm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/mydataset.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/modeltrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AiStore/f_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-          <folding>
-            <element signature="e#34#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/id_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AiStore/aiimg/cat/test/31">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AiStore/scene_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="433">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SysMGR/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiStore/id_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -24,6 +24,7 @@ current_path = os.getcwd()
 # train_xml_path = train_folder + 'cat.xml'
 # test_xml_path = test_folder + 'cats.xml'
 train_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/'
+
 test_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/test/'
 train_xml_path = train_folder + 'cat.xml'
 # test_xml_path = test_folder + 'cats.xml'

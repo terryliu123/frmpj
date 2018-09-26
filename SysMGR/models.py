@@ -55,3 +55,5 @@ class LogInfo(models.Model):
     user = models.ForeignKey(UserInfo, on_delete=models.CASCADE, to_field='id', default='', null=True)
     log = models.CharField(max_length=64, null=True, default='')
     note = models.CharField(max_length=64, default='', null=True)
+
+

@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import djcelery
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'djcelery',
     'SysMGR',
     'FrmPJ',
     'Store',
@@ -156,3 +159,11 @@ SESSION_COOKIE_AGE = 1800             # Session的cookie失效日期（2周）�
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # 是否关闭浏览器使得Session过期（默认）
 SESSION_SAVE_EVERY_REQUEST = False       # 是否每次请求都保存Session，默认修改之后才保存（默认）
 # 这个好。settings里设为true，超时时间按照最后一次客户端请求计算，如上按照最后一次请求之后10秒失效。
+
+
+# CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+# djcelery.setup_loader()
+# BROKER_URL = 'amqp://guest@localhost//'
+# BROKER_POOL_LIMIT = 0
+# CELERY_RESULT_BACKEND = 'djcelery.backends.database:DatabaseBackend'
+# BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 28800}

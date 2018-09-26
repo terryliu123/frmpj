@@ -10,6 +10,7 @@ detector = dlib.simple_object_detector("detector.svm")
 
 current_path = os.getcwd()
 test_folder = current_path + '/aiimg/cat/test/'
+# test_folder ='C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/jgfs/test/'
 # train_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/'
 # test_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/test/'
 

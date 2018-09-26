@@ -1,0 +1,74 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+
+{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+
+{% block  center %}
+<body>
+ <div class="layui-form-item">
+      <label for="pname" class="layui-form-label">
+          <span class="x-red">*</span>姓名
+      </label>
+      <div class="layui-input-inline">
+          <input type="text" id="pname" name="pname" required="" lay-verify="nikename" autocomplete="off" class="layui-input">
+      </div>
+      <div class="layui-form-mid layui-word-aux">
+          <span class="x-red">*</span>
+      </div>
+  </div>
+    <div class="layui-form-item">
+                  <label for="note" class="layui-form-label">简历</label>
+                  <div class="layui-form-mid layui-word-aux"><textarea id="pnote" name="pnote"  placeholder="请输入内容" class="layui-textarea"></textarea></div>
+                  <div class="layui-form-item">
+                      <label for="L_repass" class="layui-form-label"></label>
+                      <button class="layui-btn" lay-submit lay-filter="pform">提交</button>
+                  </div>
+      </div>
+<div class="layui-upload">
+    <div class="layui-upload">
+  <button type="button" class="layui-btn layui-btn-normal" id="test8">选择文件</button>
+  <button type="button" class="layui-btn" id="test9">开始上传</button>
+</div>
+  <div class="layui-upload-list">
+    <img class="layui-upload-img" id="demo1">
+    <p id="demoText"></p>
+  </div>
+</div>
+<script>
+layui.use('upload', function() {
+    var $ = layui.jquery
+        , upload = layui.upload;
+    //普通图片上传
+    var uploadInst = upload.render({
+        elem: '#test8'
+        , url: '/face/testface1/asdfasdf/'
+        , size: 100
+        ,auto:false
+        ,bindAction: '#test9'
+        , choose: function (obj) {
+            //预读本地文件示例，不支持ie8
+            obj.preview(function (index, file, result) {
+                $('#demo1').attr('src', result); //图片链接（base64）
+            });
+        }
+        , done: function (res) {
+            //如果上传失败
+           if (res.code < 1) {
+                return layer.msg('上传失败');
+            }else{
+               return layer.msg('上传成功');
+           }
+            //上传成功
+        }
+        , error: function () {
+            //演示失败状态，并实现重传
+            var demoText = $('#demoText');
+            demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+            demoText.find('.demo-reload').on('click', function () {
+                uploadInst.upload();
+            });
+        }
+    });
+})
+</script>
+</body>
+{% endblock %}

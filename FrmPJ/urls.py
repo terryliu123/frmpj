@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from SysMGR import views
 from Store import storeviews
-from AiStore import aiview
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -52,7 +52,12 @@ urlpatterns = [
     path('msglist/', views.msglist),
     path('loadmsg/', views.loadmsg),
     path('sendmsg/', views.sendmsg),
+
  #    AI------------------------------
-    path('ocrai/', aiview.ocrai),
-    path('test/', aiview.test),
+    path('face-page/', views.facepage),
+    path('upload/', views.upload),
+    path('upload_file/', views.upload_file),
  ]
+
+
+
