@@ -34,7 +34,7 @@ def facepage(request):
     return render(request, "face-page.html")
 def facelogin(request):
     imgfile = request.FILES.get('file')
-    img_path = os.path.join('static/images/',imgfile.name)    #存储的路径
+    img_path = os.path.join('static/images/',imgfile.name+".jpg")    #存储的路径
     print(img_path)
     with open(img_path,'wb') as f:      #图片上传
         for item in imgfile.chunks():
