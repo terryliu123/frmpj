@@ -7,7 +7,8 @@ import face_recognition
 
 def saveface():
     time_start = time.time()
-    img_path = os.path.join('static/images')  # 存储的路径
+    # img_path = os.path.join('static/images')  # 存储的路径
+    img_path ='C:/pythondev/FrmPJ/static/images'
     os.chdir(img_path+"/face")
     images_file = os.listdir('.')
     know_names = []
@@ -17,7 +18,8 @@ def saveface():
     for each in images_file:
         name = os.path.splitext(each)[0]
         know_names.append(name)
-        image_path = img_path + '/' + each
+        image_path = img_path + '/face/' + each
+        print(image_path)
         know_paths.append(image_path)
     print("Starting encoding!")
     # print(know_names)
@@ -46,19 +48,13 @@ def saveface():
     pickle_name_file.close()
     time_end = time.time()
     time_take = time_end - time_start
-    f=open('C:/pythondev/images/face_names.pkl','rb')
-    n=pickle.load(f)    #读出文件的数据个数
-    for i in range(n):
-         x=pickle.load(f)
-         print(x)
-    f.close()
-
     print("It takes %s seconds!" % time_take)
     print("All images pretreatment finished!")
 
 def loadface(imgpath):
     know_names = []
     know_encodings = []
+    # ---------------------------------------------------------------
     img_path = os.path.join('static/images/facepkl')  # 存储的路径
     f = open(img_path+'/face_names.pkl', 'rb')
     know_names = pickle.load(f)  # 读出文件的数据个数
@@ -66,19 +62,20 @@ def loadface(imgpath):
     f1 = open(img_path+'/face_encodings.pkl', 'rb')
     know_encodings = pickle.load(f1)  # 读出文件的数据个数
     f1.close()
+    # --------------------------------------------------------------
     face_locations = face_recognition.load_image_file(imgpath)
     face_encodings = face_recognition.face_encodings(face_locations)
     face_names = []
+    print(know_names)
+    # -------------------------------------------------------------------
     for face_encoding in face_encodings:
         # 默认为unknown
         matches = face_recognition.compare_faces(know_encodings, face_encoding)
         name = "Unknown"
+        print(matches)
         if True in matches:
             first_match_index = matches.index(True)
             name = know_names[first_match_index]
         face_names.append(name)
     print(face_names)
     return face_names
-
-
-

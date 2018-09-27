@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse,redirect
 from SysMGR import models,forms
-import re,json
+import re,json,os
 from datetime import datetime
 from django.db.models import Count,Q
 import face_recognition,cv2
@@ -34,14 +34,14 @@ def facepage(request):
     return render(request, "face-page.html")
 def facelogin(request):
     imgfile = request.FILES.get('file')
-    import os
-    img_path = os.path.join('static/images/',imgfile.name+".jpg")    #存储的路径
+    img_path = os.path.join('static/images/',imgfile.name)    #存储的路径
+    print(img_path)
     with open(img_path,'wb') as f:      #图片上传
         for item in imgfile.chunks():
             f.write(item)
+    f.close()
     # 读取图片并识别人脸
     name = sl_face.loadface(img_path)
-    print(name)
     ret = {'code': False, 'data': img_path, 'name': name}  # 'data': img_path 数据为图片的路径，
     if name!=[] :
         ret = {'code': True, 'data': img_path, 'name': name[0]}  # 'data': img_path 数据为图片的路径，
@@ -59,7 +59,7 @@ def facelogin(request):
         # 组织架构ID
         # 人员基本信息ID
         request.session["person_id"] = str(lis[0]['person_id'])
-    import json
+
     return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
 def findex(request):
     if request.session["user_id"] == "":
