@@ -1,36 +1,72 @@
- {% extends 'webframe.html' %}  {# 导入模板文件 #}
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>@tuts Face Detection Tutorial</title>
 
-{% block title %} Luger PreSales Framework{% endblock %}  {# 标题 #}
+ <script src="/static/lib/build/tracking-min.js"></script>
+ <script src="/static/lib/build/data/face-min.js"></script>
+ <script src="/static/lib/build/data/eye-min.js"></script>
+ <script src="/static/lib/build/data/mouth-min.js"></script>
 
-{% block  center %}
+ <style>
+ .rect {
+  border: 2px solid #a64ceb;
+  left: -1000px;
+  position: absolute;
+  top: -1000px;
+ }
+
+ #img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -173px 0 0 -300px;
+ }
+ </style>
+// tracking code.
+
+
+</head>
 <body>
-<button id="ocrtest">ocrtest</button>
- <input type="text" id="ocrt"   class="layui-input">
- url:<input type="text" id="url"   class="layui-input">
-
+<div class="imgContainer">
+ <img id="img" src="/static/images/biden.jpg" />
+<video id="video" width="350" height="300"></video>
+</div>
 <script>
-    $("#ocrtest").click(function(){
-         $.ajax({
-                      url: '/ocrai/',
-                      type: "post",
-                      cache:false,
-                      dataType:"json",
-                      data: {
-                          "url": $("#url").val(),
-                      },
-                      {#traditional: true,//这里设置为true#}
-                      success:function(data) {
-                          var arr=data.words_result;
-                          var tt="";
-                         for ( var i = 0; i <arr.length; i++){
-                             tt=tt+"|"+arr[i].words;
-                             console.log(arr[i].words);
-                         }
-                         $("#ocrt").val(tt);
-                      }
-                    });
-    })
-</script>
+  var video = document.getElementById('video');
 
+      var width = video.width;
+      var height = video.height;
+  window.onload = function() {
+   var URL = window.URL || window.webkitURL;   // 获取到window.URL对象
+        navigator.getUserMedia({
+          video: true
+        }, function(stream){
+          video.src = URL.createObjectURL(stream);   // 将获取到的视频流对象转换为地址
+          video.play();   // 播放
+        }, function(error){
+          console.log(error.name || error);
+        });
+   var img = document.getElementById('img');
+   var tracker = new tracking.ObjectTracker(['face']); // Based on parameter it will return an array.
+   tracker.setStepSize(1.7);
+   tracking.track('#video', tracker);
+   tracker.on('track', function(event) {
+    event.data.forEach(function(rect) {
+     draw(rect.x, rect.y, rect.width, rect.height);
+    });
+   });
+   function draw(x, y, w, h) {
+    var rect = document.createElement('div');
+    document.querySelector('.imgContainer').appendChild(rect);
+    rect.classList.add('rect');
+    rect.style.width = w + 'px';
+    rect.style.height = h + 'px';
+    rect.style.left = (img.offsetLeft + x) + 'px';
+    rect.style.top = (img.offsetTop + y) + 'px';
+   };
+  };
+ </script>
 </body>
-{% endblock %}
+</html>

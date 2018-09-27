@@ -4,7 +4,7 @@ import re,json
 from datetime import datetime
 from django.db.models import Count,Q
 import face_recognition,cv2
-from AiStore import id_recognition
+from AiStore import id_recognition,sl_face
 # 用户是否登陆有效性校验
 def user_session_filter(func):
     def in_fun(request):
@@ -20,7 +20,8 @@ def index(request):
 #菜单加载
     menulist = rolemenu(request.session['role_id'])
     return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
-
+def test(request):
+    return render(request, "test.html")
 def main(request):
     return render(request, "main.html")
 def orgtree(request):
@@ -30,8 +31,42 @@ def rolel(request):
 def upload(request):
     return render(request, "upload.html")
 def facepage(request):
-    return render(request, "pface-demo.html")
-
+    return render(request, "face-page.html")
+def facelogin(request):
+    imgfile = request.FILES.get('file')
+    import os
+    img_path = os.path.join('static/images/',imgfile.name+".jpg")    #存储的路径
+    with open(img_path,'wb') as f:      #图片上传
+        for item in imgfile.chunks():
+            f.write(item)
+    # 读取图片并识别人脸
+    name = sl_face.loadface(img_path)
+    print(name)
+    ret = {'code': False, 'data': img_path, 'name': name}  # 'data': img_path 数据为图片的路径，
+    if name!=[] :
+        ret = {'code': True, 'data': img_path, 'name': name[0]}  # 'data': img_path 数据为图片的路径，
+        lis = models.UserInfo.objects.filter(username= name[0]).values('id', 'username', 'person__org_id',
+                                                                                    'password', 'person__pstate',
+                                                                                    'role_id', 'person_id')
+        if str(lis[0]['person__pstate']) == '1':
+            ret = {'code': False, 'data': img_path, 'name': name[0]}  # 'data': img_path 数据为图片的路径，
+        # 用户名
+        request.session["username"] = str(lis[0]['username'])
+        # 用户ID
+        request.session["user_id"] = str(lis[0]['id'])
+        # 角色ID
+        request.session["role_id"] = str(lis[0]['role_id'])
+        # 组织架构ID
+        # 人员基本信息ID
+        request.session["person_id"] = str(lis[0]['person_id'])
+    import json
+    return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
+def findex(request):
+    if request.session["user_id"] == "":
+        return render(request, "login.html", {'error_msg': '用户名密码错误！'})
+    menulist = rolemenu(request.session["role_id"])
+    msgcount = models.MessgeInfo.objects.filter(user= request.session["user_id"]).aggregate(c=Count('id'))
+    return render(request, "index.html", {'menulist': menulist, 'username':  request.session["username"], "msgcount": msgcount['c']})
 def painface(filename):
     # 读取图片并识别人脸
     img = face_recognition.load_image_file(filename)

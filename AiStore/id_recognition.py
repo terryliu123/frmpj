@@ -2,7 +2,7 @@ import face_recognition
 
 def checkface(imgpath):
     # Load the jpg files into numpy arrays
-    biden_image = face_recognition.load_image_file("C:/pythondev/biden.jpg")
+    biden_image = face_recognition.load_image_file("C:/pythondev/my.jpg")
     obama_image = face_recognition.load_image_file("C:/pythondev/obama.jpg")
     # unknown_image = face_recognition.load_image_file(imgpath)
     unknown_image =face_recognition.load_image_file(imgpath)
@@ -25,17 +25,11 @@ def checkface(imgpath):
     for face_location in unknown_face_encoding:
         results = face_recognition.compare_faces(known_faces, face_location)
         if results[0]==True :
-            name="Biden"
-            print("Biden")
+            name="terry"
+            print("terry")
         elif results[1]==True:
             name="Obama"
             print("Obama")
         else:
             print("Is the unknown face a new person that we've never seen before? {}".format(not True in results))
     return name
-
-    # results is an array of True/False telling if the unknown face matched anyone in the known_faces array
-    # results = face_recognition.compare_faces(known_faces, unknown_face_encoding)
-    # print("Is the unknown face a picture of Biden? {}".format(results[0]))
-    # print("Is the unknown face a picture of Obama? {}".format(results[1]))
-    # print("Is the unknown face a new person that we've never seen before? {}".format(not True in results))

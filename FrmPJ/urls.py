@@ -28,6 +28,7 @@ urlpatterns = [
     path('orgec/<str:ectype>/', views.orgec),  # 移动组织
     #-----------------------------------
     path('login/', views.login),
+    path('findex/', views.findex),
     # 人员信息管理
     path('p-page/', views.personpage),
     path('p-list/', views.personlist),
@@ -57,6 +58,8 @@ urlpatterns = [
     path('face-page/', views.facepage),
     path('upload/', views.upload),
     path('upload_file/', views.upload_file),
+    path('facelogin/', views.facelogin),
+    path('test/', views.test),
  ]
 
 

@@ -14,7 +14,7 @@ test_folder = current_path + '/aiimg/cat/test/'
 # train_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/'
 # test_folder = 'C:/Users/kk/Downloads/dlib-19.15/tools/imglab/build/images/cat/test/'
 
-for f in glob.glob(test_folder+'*.jpg'):
+for f in glob.glob(test_folder+'*aa.jpg'):
     print("Processing file: {}".format(f))
     img = cv2.imread(f, cv2.IMREAD_COLOR)
     b, g, r = cv2.split(img)
