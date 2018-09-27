@@ -8,7 +8,7 @@ import face_recognition
 def saveface():
     time_start = time.time()
     img_path = os.path.join('static/images')  # 存储的路径
-    # img_path ='C:/pythondev/FrmPJ/static/images'
+    img_path ='C:/pythondev/FrmPJ/static/images'
     os.chdir(img_path+"/face")
     images_file = os.listdir('.')
     know_names = []
@@ -79,3 +79,5 @@ def loadface(imgpath):
         face_names.append(name)
     print(face_names)
     return face_names
+
+# saveface()
