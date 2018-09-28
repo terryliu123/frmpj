@@ -27,7 +27,7 @@ SECRET_KEY = 'pazm-!d(&x87)0-xxlrzbr--+yz1*2v^pt)^%g*0o@93sij&=#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.10.110','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

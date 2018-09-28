@@ -8,7 +8,8 @@
               <hr class="hr15">
               <canvas id="canvas" style="display:none"></canvas>
              <hr class="hr15">
-              <input value="用户登陆" lay-submit lay-filter="face" style="width:100%;" type="button" onclick="location.href=/login/">
+
+             <input value="用户登陆" lay-submit  style="width:100%;" type="button" onclick="location.href=/login/">
              <hr class="hr15">
                 <p id="demoText"></p>
             <hr class="hr20" >
@@ -16,7 +17,7 @@
     </div>
 </body>
  <script>
-   var cp = function(){
+ var cp =function(){
                      //1.获取canvas中的图片数据
             //var data = canvas.toDataURL('image/jpeg',0.2);
             ctx.drawImage(video, 0, 0, width, height);
@@ -33,8 +34,15 @@
             var fd = new FormData();
             fd.append('file', blob);
             //提交到服务器
-            var xhr = new XMLHttpRequest();
-            xhr.open('post', '/facelogin/', true);
+            var xhr;
+         if(window.ActiveXObject){ //如果是IE浏览器
+          xhr = new ActiveXObject("Microsoft.XMLHTTP");     
+            }else if(window.XMLHttpRequest){ //非IE浏览器
+          xhr = new XMLHttpRequest();     
+            }
+
+            xhr.open('post','/facelogin/', false);
+
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                        var data = eval('(' + xhr.responseText + ')');
@@ -44,12 +52,11 @@
                             demoText.html('<span style="color: #FF5722;">验证成功</span>');
                             location.href="/findex/";
                             {#setTimeOut(function(){location.href="/login/";},1000);#}
-
                        }else{
                             demoText.html('<span style="color: #FF5722;">验证失败</span>');
                        }
                 } else {
-                    //alert(xhr.readyState);
+                    {#alert(xhr.readyState);#}
                 }
             }
             xhr.send(fd);
@@ -65,17 +72,22 @@
       canvas.width = width;
       canvas.height = height;
      $(document).ready(function(){
-            var URL = window.URL || window.webkitURL;   // 获取到window.URL对象
-            navigator.getUserMedia({
-              video: true
-            }, function(stream){
-              video.src = URL.createObjectURL(stream);   // 将获取到的视频流对象转换为地址
-              video.play();   // 播放
-            }, function(error){
-              console.log(error.name || error);
-            });
+         if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({
+                video: true,
+                audio: true
+            }).then(function(stream) {
+                console.log(stream);
+
+                mediaStreamTrack = typeof stream.stop === 'function' ? stream : stream.getTracks()[1];
+
+                video.src = (window.URL || window.webkitURL).createObjectURL(stream);
+                video.play();
+            }).catch(function(err) {
+                console.log(err);
+            })
+        }
       });
       var si = setInterval(cp,3000);
     </script>
-
 {% endblock %}

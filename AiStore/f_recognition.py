@@ -6,15 +6,15 @@ import cv2
 video_capture = cv2.VideoCapture(0)
 
 # 本地图像
-biden_image = face_recognition.load_image_file("C:/pythondev/biden.jpg")
+biden_image = face_recognition.load_image_file("C:/pythondev/images/biden.jpg")
 biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
 
 # 本地图像二
-obama_image = face_recognition.load_image_file("C:/pythondev/obama.jpg")
+obama_image = face_recognition.load_image_file("C:/pythondev/images/obama.jpg")
 obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
 print(obama_face_encoding)
 # 本地图片三
-terry_image = face_recognition.load_image_file("C:/pythondev/terry.jpg")
+terry_image = face_recognition.load_image_file("C:/pythondev/images/terry.jpg")
 terry_face_encoding = face_recognition.face_encodings(terry_image)[0]
 
 # Create arrays of known face encodings and their names

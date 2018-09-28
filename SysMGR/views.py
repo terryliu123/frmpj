@@ -1,10 +1,9 @@
 from django.shortcuts import render,HttpResponse,redirect
 from SysMGR import models,forms
-import re,json,os
+import re,json,os,face_recognition
 from datetime import datetime
 from django.db.models import Count,Q
-import face_recognition,cv2
-from AiStore import id_recognition,sl_face
+from AiStore import sl_face
 # 用户是否登陆有效性校验
 def user_session_filter(func):
     def in_fun(request):
@@ -13,7 +12,6 @@ def user_session_filter(func):
             return redirect("/login/")
         return func(request)
     return in_fun
-
 # 主页面
 @user_session_filter
 def index(request):
@@ -21,7 +19,7 @@ def index(request):
     menulist = rolemenu(request.session['role_id'])
     return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
 def test(request):
-    return render(request, "test.html")
+   return render(request, "test.html")
 def main(request):
     return render(request, "main.html")
 def orgtree(request):
@@ -29,7 +27,8 @@ def orgtree(request):
 def rolel(request):
     return render(request, "role-list.html")
 def upload(request):
-    return render(request, "upload.html")
+    obj = list(models.UserInfo.objects.filter().values('id', 'username', 'person__pname'))
+    return render(request, "upload.html",{'userlist':obj})
 def facepage(request):
     return render(request, "face-page.html")
 def facelogin(request):
@@ -40,6 +39,13 @@ def facelogin(request):
         for item in imgfile.chunks():
             f.write(item)
     f.close()
+    image = face_recognition.load_image_file(img_path)
+    face_landmarks_list = face_recognition.face_landmarks(image)
+    ret={}
+    if len(face_landmarks_list) <1 :
+        ret = {'code': False, 'data': img_path}  # 'data': img_path 数据为图片的路径，
+        os.remove(img_path)
+        return HttpResponse(json.dumps(ret))  # 将数据的路径发送到前端
     # 读取图片并识别人脸
     name = sl_face.loadface(img_path)
     ret = {'code': False, 'data': img_path, 'name': name}  # 'data': img_path 数据为图片的路径，
@@ -61,48 +67,32 @@ def facelogin(request):
         request.session["person_id"] = str(lis[0]['person_id'])
 
     return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
+@user_session_filter
 def findex(request):
     if request.session["user_id"] == "":
         return render(request, "login.html", {'error_msg': '用户名密码错误！'})
     menulist = rolemenu(request.session["role_id"])
     msgcount = models.MessgeInfo.objects.filter(user= request.session["user_id"]).aggregate(c=Count('id'))
     return render(request, "index.html", {'menulist': menulist, 'username':  request.session["username"], "msgcount": msgcount['c']})
-def painface(filename):
-    # 读取图片并识别人脸
-    img = face_recognition.load_image_file(filename)
-    face_locations = face_recognition.face_locations(img)
-    # 调用opencv函数显示图片
-    img = cv2.imread(filename)
-    # 遍历每个人脸，并标注
-    faceNum = len(face_locations)
-    for i in range(0, faceNum):
-        top = face_locations[i][0]
-        right = face_locations[i][1]
-        bottom = face_locations[i][2]
-        left = face_locations[i][3]
-        start = (left, top)
-        end = (right, bottom)
-        color = (55, 255, 155)
-        thickness = 3
-        cv2.rectangle(img, start, end, color, thickness)
-        font = cv2.FONT_HERSHEY_DUPLEX
-        name =id_recognition.checkface(filename)
-        cv2.putText(img, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
-    # 显示识别结果
-    cv2.imwrite(filename,img)
 
 def upload_file(request):
+    filename= request.POST.get("filename")
     imgfile = request.FILES.get('file')
-    import os
-    img_path = os.path.join('static/images/',imgfile.name)    #存储的路径
+    img_path = os.path.join('static/images/face/',filename+".jpg")    #存储的路径
     with open(img_path,'wb') as f:      #图片上传
         for item in imgfile.chunks():
             f.write(item)
-    ret = {'code': True , 'data': img_path}  #'data': img_path 数据为图片的路径，
-    painface(img_path)
-    import json
+            f.close()
+    image = face_recognition.load_image_file(img_path)
+    face_landmarks_list = face_recognition.face_landmarks(image)
+    ret={}
+    if len(face_landmarks_list) <1 :
+        ret = {'code': False, 'data': img_path}  # 'data': img_path 数据为图片的路径，
+        os.remove(img_path)
+    else:
+        sl_face.saveface()  # 重新生成特征识别码库
+        ret = {'code': True, 'data': img_path}  # 'data': img_path 数据为图片的路径，
     return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
-
 # 菜单列表
 def menu(userid):
 #菜单加载
