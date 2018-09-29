@@ -1,9 +1,10 @@
 from django.shortcuts import render,HttpResponse,redirect
 from SysMGR import models,forms
-import re,json,os,face_recognition
+import re,json,os,face_recognition,pytesseract,time
 from datetime import datetime
 from django.db.models import Count,Q
 from AiStore import sl_face
+from PIL import Image
 # 用户是否登陆有效性校验
 def user_session_filter(func):
     def in_fun(request):
@@ -18,22 +19,30 @@ def index(request):
 #菜单加载
     menulist = rolemenu(request.session['role_id'])
     return render(request, "index.html", {'menulist': menulist,'username':request.session.get("username")})
+
 def test(request):
-   return render(request, "test.html")
+   return render(request, "weather.html")
 def main(request):
     return render(request, "main.html")
 def orgtree(request):
     return render(request, "orgtree.html")
 def rolel(request):
     return render(request, "role-list.html")
+# 人脸识别操作页面
 def upload(request):
     obj = list(models.UserInfo.objects.filter().values('id', 'username', 'person__pname'))
     return render(request, "upload.html",{'userlist':obj})
+# ocr页面
+def ocrpage(request):
+    return render(request, "upload-ocr.html")
+# 人脸页面
 def facepage(request):
     return render(request, "face-page.html")
+# 人脸登陆
 def facelogin(request):
     imgfile = request.FILES.get('file')
-    img_path = os.path.join('static/images/',imgfile.name+".jpg")    #存储的路径
+    filename = str(time.time())+".jpg"
+    img_path = os.path.join('static/images/',filename)    #存储的路径
     print(img_path)
     with open(img_path,'wb') as f:      #图片上传
         for item in imgfile.chunks():
@@ -49,6 +58,7 @@ def facelogin(request):
     # 读取图片并识别人脸
     name = sl_face.loadface(img_path)
     ret = {'code': False, 'data': img_path, 'name': name}  # 'data': img_path 数据为图片的路径，
+    os.remove(img_path)
     if name!=[] :
         ret = {'code': True, 'data': img_path, 'name': name[0]}  # 'data': img_path 数据为图片的路径，
         lis = models.UserInfo.objects.filter(username= name[0]).values('id', 'username', 'person__org_id',
@@ -65,7 +75,6 @@ def facelogin(request):
         # 组织架构ID
         # 人员基本信息ID
         request.session["person_id"] = str(lis[0]['person_id'])
-
     return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
 @user_session_filter
 def findex(request):
@@ -74,7 +83,22 @@ def findex(request):
     menulist = rolemenu(request.session["role_id"])
     msgcount = models.MessgeInfo.objects.filter(user= request.session["user_id"]).aggregate(c=Count('id'))
     return render(request, "index.html", {'menulist': menulist, 'username':  request.session["username"], "msgcount": msgcount['c']})
-
+# 上传文字性图片
+def upload_ocr(request):
+    filename= str(time.time())+".jpg"
+    imgfile = request.FILES.get('file')
+    img_path = os.path.join('static/images/',filename)    #存储的路径
+    with open(img_path,'wb') as f:      #图片上传
+        for item in imgfile.chunks():
+            f.write(item)
+    f.close()
+    image = Image.open(img_path)
+    cont = pytesseract.image_to_string(image, lang='chi_sim')
+    print(cont)
+    ret = {'code': True, 'data': img_path,'content':str(cont)}  # 'data': img_path 数据为图片的路径，
+    os.remove(img_path)
+    return HttpResponse(json.dumps(ret))    #将数据的路径发送到前端
+# 上传图片，生成识别特征码
 def upload_file(request):
     filename= request.POST.get("filename")
     imgfile = request.FILES.get('file')
@@ -188,7 +212,7 @@ def login(request):
 # 人员列表
 def personpage(request):
     return render(request, 'person-list.html', {'plist': ""})
-
+# 人员信息列表
 def personlist(request):
     page = int(request.GET.get("page"))  # 页码的参数名称，默认：page
     limit = int(request.GET.get("limit"))  # 每页数据量的参数名，默认：limit
@@ -279,7 +303,6 @@ def checkuser(request,username):
     return HttpResponse(json.dumps('0'), content_type="application/json")
 #检测用户是否在数据库中有同名
 def modcheckuser(request,f,s):
-
     obj = models.UserInfo.objects.filter(username=f).values('id');
     if len(obj)>0 :
         return HttpResponse(json.dumps('1'), content_type="application/json")
@@ -293,9 +316,11 @@ def modpwd(request,ectype,pid):
         models.UserInfo.objects.filter(person_id=pid).update(password=request.GET.get("password"))
     return HttpResponse(json.dumps('suc'), content_type="application/json")
 #---------------
+# 部门加载
 def orgload(request):
     lis = list(models.OrgInfo.objects.all().values("id", "parent", "text"))
     return HttpResponse(json.dumps(lis), content_type="application/json")
+# 部门操作
 def orgec(request,ectype):
         orgid = request.POST.get('orgid')
         text = request.POST.get('text')
@@ -311,7 +336,7 @@ def orgec(request,ectype):
         elif ectype == 'delete_node':
             models.OrgInfo.objects.filter(id=int(orgid)).delete()
         return HttpResponse(json.dumps(orgid), content_type="application/json")
-
+# 权限列表
 def rolelist(request):
     page=int(request.GET.get("page")) # 页码的参数名称，默认：page
     limit=int(request.GET.get("limit")) # 每页数据量的参数名，默认：limit
@@ -321,7 +346,7 @@ def rolelist(request):
     lenl = models.RoleInfo.objects.filter(Q(rolename__contains=name)).aggregate(c=Count('id'))
     reponse_data = {'code': 0, 'msg': '', 'count': lenl['c'], "data": list(obj)}
     return HttpResponse(json.dumps(reponse_data), content_type="application/json")
-
+#权限菜单列表
 def rolemenulist(request,roleid):
     obj = list(models.MenuInfo.objects.all().values("id","text","parent"))
     rolemenu= list(models.RolemenuInfo.objects.filter(role_id=roleid).values("menu_id"))
@@ -333,14 +358,16 @@ def rolemenulist(request,roleid):
             # else : #否则不选中
             #     i['state'] = {"opened": False, "selected": False}
     return HttpResponse(json.dumps(obj), content_type="application/json")
-
+# 权限页面
 def rolepage(request):
     return render(request, "role-add.html")
+# 权限增加
 def roleadd(request):
     rname=request.GET.get("rolename","")
     rnote=request.GET.get("note","")
     models.RoleInfo.objects.create(rolename=rname, note=rnote)
     return HttpResponse(json.dumps('suc'), content_type="application/json")
+# 权限修改
 def rolemod(request,ectype,rid):
     rname=request.GET.get("rolename","")
     rnote=request.GET.get("note","")
@@ -360,13 +387,16 @@ def roleset(request,rid,ids):
     return HttpResponse(json.dumps('suc'), content_type="application/json")
 
 # ----------------message--------------------
+# 发送消息
 def sendmsg(request):
     userid = request.POST.get('userid')
     msg = request.POST.get('msg')
     models.MessgeInfo.objects.create(user=userid,message= msg,state=0)
     return HttpResponse(json.dumps('suc'), content_type="application/json")
+# 打开消息页面
 def msglist(request):
     return render(request, "msg.html")
+# 加载系统消息
 def loadmsg(request):
     userid = request.session.get("user_id")
     lis=list(models.MessgeInfo.objects.filter(user=userid,state=0).values("message","state"))

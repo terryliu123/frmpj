@@ -58,6 +58,8 @@ urlpatterns = [
     path('face-page/', views.facepage),
     path('upload/', views.upload),
     path('upload_file/', views.upload_file),
+    path('ocr-page/', views.ocrpage),
+    path('upload_ocr/', views.upload_ocr),
     path('facelogin/', views.facelogin),
     path('test/', views.test),
  ]
