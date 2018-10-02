@@ -62,6 +62,9 @@ urlpatterns = [
     path('upload_ocr/', views.upload_ocr),
     path('facelogin/', views.facelogin),
     path('test/', views.test),
+    path('videof/', views.videof),
+    path('vface/', views.vface),
+
  ]
 
 

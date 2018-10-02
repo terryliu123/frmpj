@@ -77,7 +77,7 @@ def loadface(imgpath):
             first_match_index = matches.index(True)
             name = know_names[first_match_index]
         face_names.append(name)
-    print(face_names)
+    # print(face_names)
     return face_names
 
 # saveface()

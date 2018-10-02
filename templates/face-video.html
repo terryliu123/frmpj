@@ -1,0 +1,96 @@
+{% extends 'webframe.html' %}  {# 导入模板文件 #}
+{% block center %}
+
+
+<body>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend>视频人脸识别</legend>
+</fieldset>
+
+
+<div class="layui-upload">
+   <video id="video" width="350" height="300"></video>
+              <hr class="hr15">
+              <canvas id="canvas" style="display:none"></canvas>
+             <hr class="hr15">
+
+  <button type="button" class="layui-btn layui-btn-normal" id="test8">开始识别</button>
+  <button type="button" class="layui-btn layui-btn-normal" id="test9">停止</button>
+</div>
+<div id="imgtable"></div>
+
+</body>
+ <script>
+ var si;
+ $('#test8').click(function(){
+     si= setInterval(cp,3000);
+ });
+ $('#test9').click(function(){
+    window.clearInterval(si);
+ });
+ var cp =function(){
+                     //1.获取canvas中的图片数据
+            //var data = canvas.toDataURL('image/jpeg',0.2);
+            ctx.drawImage(video, 0, 0, width, height);
+            var data = canvas.toDataURL('image/jpeg');
+            data = data.split(',')[1];
+            //数据格式转换
+            data = window.atob(data);
+            var ia = new Uint8Array(data.length);
+            for (var i = 0; i < data.length; i++) {
+                ia[i] = data.charCodeAt(i);
+            }
+            var blob = new Blob([ia], { type: 'image/jpeg' });
+            //2.提交到服务器
+            var fd = new FormData();
+            fd.append('file', blob);
+            //提交到服务器
+            var xhr;
+         if(window.ActiveXObject){ //如果是IE浏览器
+          xhr = new ActiveXObject("Microsoft.XMLHTTP");     
+            }else if(window.XMLHttpRequest){ //非IE浏览器
+          xhr = new XMLHttpRequest();     
+            }
+            xhr.open('post','/videof/', false);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                       var data = eval('(' + xhr.responseText + ')');
+                       var demoText = $('#demoText');
+                       if(data.code==true){
+                            {#window.clearInterval(si);#}
+                            $('#imgtable').append('<img width="200px" height="200px" class="layui-upload-img" src="/'+data.data+'">');
+                        }
+                } else {
+                    {#alert(xhr.readyState);#}
+                }
+            }
+            xhr.send(fd);
+  }
+  </script>
+     <script>
+      var video = document.getElementById('video');
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+      var width = video.width;
+      var height = video.height;
+      canvas.width = width;
+      canvas.height = height;
+     $(document).ready(function(){
+         if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({
+                video: true,
+                audio: true
+            }).then(function(stream) {
+                console.log(stream);
+
+                mediaStreamTrack = typeof stream.stop === 'function' ? stream : stream.getTracks()[1];
+
+                video.src = (window.URL || window.webkitURL).createObjectURL(stream);
+                video.play();
+            }).catch(function(err) {
+                console.log(err);
+            })
+        }
+      });
+    </script>
+{% endblock %}
