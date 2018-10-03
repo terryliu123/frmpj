@@ -1,6 +1,6 @@
 # read the images and it's image name then pre-encoding 2018.6.23
 print("Initialing...")
-import os,cv2
+import os
 import time
 import pickle
 import face_recognition
@@ -52,8 +52,8 @@ def saveface():
     print("All images pretreatment finished!")
 
 def loadface(imgpath):
-    know_names = []
-    know_encodings = []
+    know_names=[]
+    know_encodings=[]
     # ---------------------------------------------------------------
     img_path = os.path.join('static/images/facepkl')  # 存储的路径
     f = open(img_path+'/face_names.pkl', 'rb')
@@ -62,6 +62,7 @@ def loadface(imgpath):
     f1 = open(img_path+'/face_encodings.pkl', 'rb')
     know_encodings = pickle.load(f1)  # 读出文件的数据个数
     f1.close()
+
     # --------------------------------------------------------------
     face_locations = face_recognition.load_image_file(imgpath)
     face_encodings = face_recognition.face_encodings(face_locations)
@@ -79,5 +80,16 @@ def loadface(imgpath):
         face_names.append(name)
     # print(face_names)
     return face_names
-
-# saveface()
+def loadface2():
+        know_names = []
+        know_encodings = []
+        # ---------------------------------------------------------------
+        img_path = os.path.join('static/images/facepkl')  # 存储的路径
+        f = open(img_path + '/face_names.pkl', 'rb')
+        know_names = pickle.load(f)  # 读出文件的数据个数
+        f.close()
+        f1 = open(img_path + '/face_encodings.pkl', 'rb')
+        know_encodings = pickle.load(f1)  # 读出文件的数据个数
+        f1.close()
+        # --------------------------------------------------------------
+        return [know_names,know_encodings]

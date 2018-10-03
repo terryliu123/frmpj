@@ -22,6 +22,7 @@
 </body>
  <script>
  var si;
+ var imgcount=0;
  $('#test8').click(function(){
      si= setInterval(cp,3000);
  });
@@ -57,14 +58,33 @@
                        var data = eval('(' + xhr.responseText + ')');
                        var demoText = $('#demoText');
                        if(data.code==true){
-                            {#window.clearInterval(si);#}
-                            $('#imgtable').append('<img width="200px" height="200px" class="layui-upload-img" src="/'+data.data+'">');
+                           if(imgcount>12)
+                           {
+                               var s=$('#faceimg'+(imgcount-12).toString()).attr('src');
+                               delface(s.substring(1,s.length));
+                               {#console.log($('#faceimg'+(imgcount-3).toString()).attr('src'));#}
+                               $('#faceimg'+(imgcount-12).toString()).remove();
+
+
+                           }
+                            $('#imgtable').append('<img width="200px" height="200px" id="faceimg'+imgcount+'" class="layui-upload-img" src="/'+data.data+'">');
+                            imgcount= imgcount+1;
                         }
                 } else {
                     {#alert(xhr.readyState);#}
                 }
             }
             xhr.send(fd);
+  }
+  function delface(filename){
+      $.ajax({
+            //几个参数需要注意一下
+                type: "get",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/delface/",
+                data: {'filename':filename},
+                async:false
+            });
   }
   </script>
      <script>
@@ -82,9 +102,7 @@
                 audio: true
             }).then(function(stream) {
                 console.log(stream);
-
                 mediaStreamTrack = typeof stream.stop === 'function' ? stream : stream.getTracks()[1];
-
                 video.src = (window.URL || window.webkitURL).createObjectURL(stream);
                 video.play();
             }).catch(function(err) {

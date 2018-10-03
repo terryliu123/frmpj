@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 import djcelery
+from AiStore import sl_face
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -61,8 +62,7 @@ ROOT_URLCONF = 'FrmPJ.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')] ,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,6 +70,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'SysMGR.globalset.global_setting',
             ],
         },
     },
@@ -167,3 +168,6 @@ SESSION_SAVE_EVERY_REQUEST = False       # 是否每次请求都保存Session，
 # BROKER_POOL_LIMIT = 0
 # CELERY_RESULT_BACKEND = 'djcelery.backends.database:DatabaseBackend'
 # BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 28800}
+
+SITE_NAME = 'Luger PreSales Framework'
+COPY_RIGHT = 'Copyright ©2017-2018 Lugertech All Rights Reserved'

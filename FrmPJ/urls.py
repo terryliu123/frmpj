@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from SysMGR import views
+from AiStore import  aiviews
 from Store import storeviews
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('test/', views.test),
     path('index/', views.index),
     path('main/', views.main),
     path('orgtree/', views.orgtree),
@@ -28,7 +30,6 @@ urlpatterns = [
     path('orgec/<str:ectype>/', views.orgec),  # 移动组织
     #-----------------------------------
     path('login/', views.login),
-    path('findex/', views.findex),
     # 人员信息管理
     path('p-page/', views.personpage),
     path('p-list/', views.personlist),
@@ -55,16 +56,16 @@ urlpatterns = [
     path('sendmsg/', views.sendmsg),
 
  #    AI------------------------------
-    path('face-page/', views.facepage),
-    path('upload/', views.upload),
-    path('upload_file/', views.upload_file),
-    path('ocr-page/', views.ocrpage),
-    path('upload_ocr/', views.upload_ocr),
-    path('facelogin/', views.facelogin),
-    path('test/', views.test),
-    path('videof/', views.videof),
-    path('vface/', views.vface),
-
+    path('face-page/', aiviews.facepage),
+    path('upload/', aiviews.upload),
+    path('upload_file/', aiviews.upload_file),
+    path('ocr-page/', aiviews.ocrpage),
+    path('upload_ocr/', aiviews.upload_ocr),
+    path('facelogin/', aiviews.facelogin),
+    path('videof/', aiviews.videof),
+    path('vface/', aiviews.vface),
+    path('delface/', aiviews.delface),
+    path('findex/', aiviews.findex),
  ]
 
 

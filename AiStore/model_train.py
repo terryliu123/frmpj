@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-import sys
-import glob
 import dlib
-import cv2
 
 # options用于设置训练的参数和模式
 options = dlib.simple_object_detector_training_options()
